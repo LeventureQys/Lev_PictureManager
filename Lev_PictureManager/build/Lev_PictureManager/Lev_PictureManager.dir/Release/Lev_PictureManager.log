@@ -1,0 +1,4 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中间目录(Lev_PictureManager.dir\Release\)包含从另一个项目(Lev_PictureManager.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  Building Custom Rule F:/Opencv开发/PictureManager/Lev_PictureManager/Lev_PictureManager/CMakeLists.txt
+  Lev_PictureManager.cpp
+  Lev_PictureManager.vcxproj -> D:\WorkShop\Lev_PictureManager\build\Lev_PictureManager\Release\Lev_PictureManager.dll

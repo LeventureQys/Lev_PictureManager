@@ -1,0 +1,10 @@
+^F:\OPENCV开发\PICTUREMANAGER\LEV_PICTUREMANAGER\LEV_PICTUREMANAGER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/Opencv开发/PictureManager/Lev_PictureManager -BF:/Opencv开发/PictureManager/Lev_PictureManager/build --check-stamp-file F:/Opencv开发/PictureManager/Lev_PictureManager/build/Lev_PictureManager/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

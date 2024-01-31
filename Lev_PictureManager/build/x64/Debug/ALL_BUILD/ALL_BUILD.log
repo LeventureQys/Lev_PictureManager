@@ -1,0 +1,15 @@
+﻿  Building Custom Rule F:/Opencv开发/PictureManager/Lev_PictureManager/CMakeLists.txt
+  CMake is re-running because F:/Opencv寮€鍙?PictureManager/Lev_PictureManager/build/CMakeFiles/generate.stamp is out-of-date.
+    the file 'F:/Opencv寮€鍙?PictureManager/Lev_PictureManager/CMakeLists.txt'
+    is newer than 'F:/Opencv寮€鍙?PictureManager/Lev_PictureManager/build/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.19045.
+  CMake Warning (dev) at Lev_PictureManager/CMakeLists.txt:5:
+    Syntax Warning in cmake code at column 39
+  
+    Argument not separated from preceding token by whitespace.
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  -- Configuring done (0.0s)
+  -- Generating done (0.4s)
+  -- Build files have been written to: F:/Opencv寮€鍙?PictureManager/Lev_PictureManager/build
