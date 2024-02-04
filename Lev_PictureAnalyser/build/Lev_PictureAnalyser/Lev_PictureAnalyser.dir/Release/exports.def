@@ -1,0 +1,333 @@
+EXPORTS 
+	??_R0?AU?$big_any_policy@Uempty_any@anyimpl@cvflann@@@anyimpl@cvflann@@@8 	 DATA
+	??_R0?AU?$big_any_policy@VString@cv@@@anyimpl@cvflann@@@8 	 DATA
+	??_R0?AU?$big_any_policy@W4flann_algorithm_t@cvflann@@@anyimpl@cvflann@@@8 	 DATA
+	??_R0?AU?$big_any_policy@W4flann_centers_init_t@cvflann@@@anyimpl@cvflann@@@8 	 DATA
+	??_R0?AU?$small_any_policy@H@anyimpl@cvflann@@@8 	 DATA
+	??_R0?AU?$small_any_policy@I@anyimpl@cvflann@@@8 	 DATA
+	??_R0?AU?$small_any_policy@M@anyimpl@cvflann@@@8 	 DATA
+	??_R0?AU?$small_any_policy@PEBD@anyimpl@cvflann@@@8 	 DATA
+	??_R0?AU?$small_any_policy@_N@anyimpl@cvflann@@@8 	 DATA
+	??_R0?AU?$typed_base_any_policy@H@anyimpl@cvflann@@@8 	 DATA
+	??_R0?AU?$typed_base_any_policy@I@anyimpl@cvflann@@@8 	 DATA
+	??_R0?AU?$typed_base_any_policy@M@anyimpl@cvflann@@@8 	 DATA
+	??_R0?AU?$typed_base_any_policy@PEBD@anyimpl@cvflann@@@8 	 DATA
+	??_R0?AU?$typed_base_any_policy@Uempty_any@anyimpl@cvflann@@@anyimpl@cvflann@@@8 	 DATA
+	??_R0?AU?$typed_base_any_policy@VString@cv@@@anyimpl@cvflann@@@8 	 DATA
+	??_R0?AU?$typed_base_any_policy@W4flann_algorithm_t@cvflann@@@anyimpl@cvflann@@@8 	 DATA
+	??_R0?AU?$typed_base_any_policy@W4flann_centers_init_t@cvflann@@@anyimpl@cvflann@@@8 	 DATA
+	??_R0?AU?$typed_base_any_policy@_N@anyimpl@cvflann@@@8 	 DATA
+	??_R0?AUbase_any_policy@anyimpl@cvflann@@@8 	 DATA
+	??_R0?AUempty_any@anyimpl@cvflann@@@8 	 DATA
+	??_R0?AVString@cv@@@8 	 DATA
+	??_R0?AV_Generic_error_category@std@@@8 	 DATA
+	??_R0?AV_System_error@std@@@8 	 DATA
+	??_R0?AV_System_error_category@std@@@8 	 DATA
+	??_R0?AVbad_alloc@std@@@8 	 DATA
+	??_R0?AVbad_array_new_length@std@@@8 	 DATA
+	??_R0?AVerror_category@std@@@8 	 DATA
+	??_R0?AVexception@std@@@8 	 DATA
+	??_R0?AVfilesystem_error@filesystem@std@@@8 	 DATA
+	??_R0?AVruntime_error@std@@@8 	 DATA
+	??_R0?AVsystem_error@std@@@8 	 DATA
+	??_R0?AW4flann_algorithm_t@cvflann@@@8 	 DATA
+	??_R0?AW4flann_centers_init_t@cvflann@@@8 	 DATA
+	??_R0H@8 	 DATA
+	??_R0I@8 	 DATA
+	??_R0M@8 	 DATA
+	??_R0PEBD@8 	 DATA
+	??_R0_N@8 	 DATA
+	?_Static@?1???$_Immortalize_memcpy_image@V_Generic_error_category@std@@@std@@YAAEBV_Generic_error_category@1@XZ@4V21@B 	 DATA
+	?_Static@?1???$_Immortalize_memcpy_image@V_System_error_category@std@@@std@@YAAEBV_System_error_category@1@XZ@4V21@B 	 DATA
+	?image_height@Lev_PictureManager@@3HA 	 DATA
+	?image_width@Lev_PictureManager@@3HA 	 DATA
+	?policy@?$SinglePolicy@H@anyimpl@cvflann@@0U?$small_any_policy@H@23@A 	 DATA
+	?policy@?$SinglePolicy@I@anyimpl@cvflann@@0U?$small_any_policy@I@23@A 	 DATA
+	?policy@?$SinglePolicy@M@anyimpl@cvflann@@0U?$small_any_policy@M@23@A 	 DATA
+	?policy@?$SinglePolicy@PEBD@anyimpl@cvflann@@0U?$small_any_policy@PEBD@23@A 	 DATA
+	?policy@?$SinglePolicy@Uempty_any@anyimpl@cvflann@@@anyimpl@cvflann@@0U?$big_any_policy@Uempty_any@anyimpl@cvflann@@@23@A 	 DATA
+	?policy@?$SinglePolicy@VString@cv@@@anyimpl@cvflann@@0U?$big_any_policy@VString@cv@@@23@A 	 DATA
+	?policy@?$SinglePolicy@W4flann_algorithm_t@cvflann@@@anyimpl@cvflann@@0U?$big_any_policy@W4flann_algorithm_t@cvflann@@@23@A 	 DATA
+	?policy@?$SinglePolicy@W4flann_centers_init_t@cvflann@@@anyimpl@cvflann@@0U?$big_any_policy@W4flann_centers_init_t@cvflann@@@23@A 	 DATA
+	?policy@?$SinglePolicy@_N@anyimpl@cvflann@@0U?$small_any_policy@_N@23@A 	 DATA
+	??$?0PEAD$0A@@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@PEAD0AEBV?$allocator@D@1@@Z
+	??$?0V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$0A@@path@filesystem@std@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@W4format@012@@Z
+	??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z
+	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AEBV10@QEBD@Z
+	??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z
+	??$_Atomic_address_as@HU?$_Atomic_padded@H@std@@@std@@YAPEDHAEBU?$_Atomic_padded@H@0@@Z
+	??$_Atomic_address_as@JU?$_Atomic_padded@H@std@@@std@@YAPECJAEAU?$_Atomic_padded@H@0@@Z
+	??$_Construct@$00PEBD@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAXQEBD_K@Z
+	??$_Construct@$00PEB_W@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@AEAAXQEB_W_K@Z
+	??$_Convert_Source_to_wide@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U_Normal_conversion@filesystem@2@@filesystem@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@U_Normal_conversion@01@@Z
+	??$_Convert_Source_to_wide@V?$basic_string_view@_WU?$char_traits@_W@std@@@std@@U_Normal_conversion@filesystem@2@@filesystem@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@AEBV?$basic_string_view@_WU?$char_traits@_W@std@@@1@U_Normal_conversion@01@@Z
+	??$_Convert_stringoid_to_wide@U_Normal_conversion@filesystem@std@@@filesystem@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@V?$basic_string_view@DU?$char_traits@D@std@@@1@U_Normal_conversion@01@@Z
+	??$_Convert_stringoid_to_wide@U_Normal_conversion@filesystem@std@@@filesystem@std@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@1@V?$basic_string_view@_WU?$char_traits@_W@std@@@1@U_Normal_conversion@01@@Z
+	??$_Convert_wide_to@U?$char_traits@D@std@@V?$allocator@D@2@D@filesystem@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@V?$basic_string_view@_WU?$char_traits@_W@std@@@1@AEBV?$allocator@D@1@@Z
+	??$_Convert_wide_to_narrow@U?$char_traits@D@std@@V?$allocator@D@2@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@W4__std_code_page@@V?$basic_string_view@_WU?$char_traits@_W@std@@@0@AEBV?$allocator@D@0@@Z
+	??$_Convert_wide_to_narrow_replace_chars@U?$char_traits@D@std@@V?$allocator@D@2@@filesystem@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@W4__std_code_page@@V?$basic_string_view@_WU?$char_traits@_W@std@@@1@AEBV?$allocator@D@1@@Z
+	??$_Destroy_range@V?$allocator@VMat@cv@@@std@@@std@@YAXPEAVMat@cv@@QEAV12@AEAV?$allocator@VMat@cv@@@0@@Z
+	??$_Emplace_reallocate@AEBVMat@cv@@@?$vector@VMat@cv@@V?$allocator@VMat@cv@@@std@@@std@@AEAAPEAVMat@cv@@QEAV23@AEBV23@@Z
+	??$_Getvals@_W@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Getvals@_W@?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Immortalize_memcpy_image@V_Generic_error_category@std@@@std@@YAAEBV_Generic_error_category@0@XZ
+	??$_Immortalize_memcpy_image@V_System_error_category@std@@@std@@YAAEBV_System_error_category@0@XZ
+	??$_Integral_to_string@DH@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@H@Z
+	??$_Maklocstr@D@std@@YAPEADPEBDPEADAEBU_Cvtvec@@@Z
+	??$_Reallocate_grow_by@V<lambda_1>@?1??append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV34@QEBD_K@Z@PEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_1>@?1??append@01@QEAAAEAV01@QEBD0@Z@PEBD_K@Z
+	??$_Reallocate_grow_by@V<lambda_1>@?1??append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV34@_KD@Z@_KD@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_1>@?1??append@01@QEAAAEAV01@0D@Z@_KD@Z
+	??$_Reallocate_grow_by@V<lambda_1>@?1??append@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAAEAV34@_K_W@Z@_K_W@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@AEAAAEAV01@_KV<lambda_1>@?1??append@01@QEAAAEAV01@0_W@Z@_K_W@Z
+	??$_Reallocate_grow_by@V<lambda_1>@?1??push_back@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXD@Z@D@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_1>@?1??push_back@01@QEAAXD@Z@D@Z
+	??$_Reallocate_grow_by@V<lambda_1>@?1??reserve@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAX_K@Z@$$V@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_1>@?1??reserve@01@QEAAX0@Z@@Z
+	??$_Stringoid_from_Source@DU?$char_traits@D@std@@V?$allocator@D@2@@filesystem@std@@YA?A_PAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
+	??$_Stringoid_from_Source@_WU?$char_traits@_W@std@@@filesystem@std@@YA?A_PAEBV?$basic_string_view@_WU?$char_traits@_W@std@@@1@@Z
+	??$_UIntegral_to_buff@DI@std@@YAPEADPEADI@Z
+	??$_Unaligned_load@I@filesystem@std@@YAIPEBX@Z
+	??$__std_find_trivial@$$CB_W_W@@YAPEB_WPEB_W0_W@Z
+	??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z
+	??0?$QList@UDet_Obj@Lev_PictureManager@@@@QEAA@AEBV0@@Z
+	??0?$QList@VQPoint@@@@QEAA@AEBV0@@Z
+	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@AEBV01@@Z
+	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@QEBD@Z
+	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@U_String_constructor_concat_tag@1@AEAV01@1@Z
+	??0?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAA@AEBV01@@Z
+	??0Mat@cv@@QEAA@$$QEAV01@@Z
+	??0Mat@cv@@QEAA@AEBV01@@Z
+	??0_System_error@std@@IEAA@Verror_code@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
+	??0_System_error@std@@QEAA@AEBV01@@Z
+	??0bad_alloc@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@XZ
+	??0exception@std@@QEAA@AEBV01@@Z
+	??0filesystem_error@filesystem@std@@QEAA@AEBV012@@Z
+	??0filesystem_error@filesystem@std@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@AEBVpath@12@Verror_code@2@@Z
+	??0runtime_error@std@@QEAA@AEBV01@@Z
+	??0system_error@std@@QEAA@AEBV01@@Z
+	??0system_error@std@@QEAA@Verror_code@1@@Z
+	??1?$Ptr@VCLAHE@cv@@@cv@@QEAA@XZ
+	??1?$QList@UDet_Obj@Lev_PictureManager@@@@QEAA@XZ
+	??1?$QVector@V?$QVector@UDet_Obj@Lev_PictureManager@@@@@@QEAA@XZ
+	??1?$QVector@V?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@@@QEAA@XZ
+	??1?$_Uninitialized_backout_al@V?$allocator@VMat@cv@@@std@@@std@@QEAA@XZ
+	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@XZ
+	??1?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAA@XZ
+	??1?$vector@HV?$allocator@H@std@@@std@@QEAA@XZ
+	??1?$vector@V?$vector@VMat@cv@@V?$allocator@VMat@cv@@@std@@@std@@V?$allocator@V?$vector@VMat@cv@@V?$allocator@VMat@cv@@@std@@@std@@@2@@std@@QEAA@XZ
+	??1?$vector@VMat@cv@@V?$allocator@VMat@cv@@@std@@@std@@QEAA@XZ
+	??1Det_Obj@Lev_PictureManager@@QEAA@XZ
+	??1Mat@cv@@QEAA@XZ
+	??1String@cv@@QEAA@XZ
+	??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1_System_error_message@std@@QEAA@XZ
+	??1bad_array_new_length@std@@UEAA@XZ
+	??1base_any_policy@anyimpl@cvflann@@UEAA@XZ
+	??1error_category@std@@UEAA@XZ
+	??1exception@std@@UEAA@XZ
+	??1filesystem_error@filesystem@std@@UEAA@XZ
+	??1path@filesystem@std@@QEAA@XZ
+	??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
+	??1system_error@std@@UEAA@XZ
+	??C?$Ptr@VCLAHE@cv@@@cv@@QEBAPEAVCLAHE@1@XZ
+	??H@YA?BVQString@@AEBV0@0@Z
+	??H@YA?BVQString@@AEBV0@PEBD@Z
+	??_7?$big_any_policy@Uempty_any@anyimpl@cvflann@@@anyimpl@cvflann@@6B@
+	??_7?$big_any_policy@VString@cv@@@anyimpl@cvflann@@6B@
+	??_7?$big_any_policy@W4flann_algorithm_t@cvflann@@@anyimpl@cvflann@@6B@
+	??_7?$big_any_policy@W4flann_centers_init_t@cvflann@@@anyimpl@cvflann@@6B@
+	??_7?$small_any_policy@H@anyimpl@cvflann@@6B@
+	??_7?$small_any_policy@I@anyimpl@cvflann@@6B@
+	??_7?$small_any_policy@M@anyimpl@cvflann@@6B@
+	??_7?$small_any_policy@PEBD@anyimpl@cvflann@@6B@
+	??_7?$small_any_policy@_N@anyimpl@cvflann@@6B@
+	??_7_Generic_error_category@std@@6B@
+	??_7_System_error@std@@6B@
+	??_7_System_error_category@std@@6B@
+	??_7bad_alloc@std@@6B@
+	??_7bad_array_new_length@std@@6B@
+	??_7base_any_policy@anyimpl@cvflann@@6B@
+	??_7exception@std@@6B@
+	??_7filesystem_error@filesystem@std@@6B@
+	??_7runtime_error@std@@6B@
+	??_7system_error@std@@6B@
+	?ReformDataset@Lev_PictureManager@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z
+	?ResizeSingleImage@Lev_PictureManager@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0HH@Z
+	?TSDToLabelme@Lev_PictureManager@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z
+	?TSDToLabelme_Single@Lev_PictureManager@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00_N@Z
+	?TearDataJson@Lev_PictureManager@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0HH@Z
+	?TearPicture@Lev_PictureManager@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0HH@Z
+	?WriteJsonFile@Lev_PictureManager@@YA_NAEBVQString@@AEBV?$QList@UDet_Obj@Lev_PictureManager@@@@@Z
+	?_Find_root_name_end@filesystem@std@@YAPEB_WQEB_W0@Z
+	?_Get_any_status@filesystem@std@@YA?AU_File_status_and_error@12@AEBVpath@12@W4__std_fs_stats_flags@@@Z
+	?_Make_ec@std@@YA?AVerror_code@1@W4__std_win_error@@@Z
+	?_Makestr@_System_error@std@@CA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@Verror_code@2@V32@@Z
+	?_Maklocwcs@std@@YAPEA_WPEB_W@Z
+	?_Pretty_message@filesystem_error@filesystem@std@@CA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@V?$basic_string_view@DU?$char_traits@D@std@@@3@AEBVpath@23@1@Z
+	?_Throw_bad_array_new_length@std@@YAXXZ
+	?_Throw_fs_error@filesystem@std@@YAXPEBDW4__std_win_error@@AEBVpath@12@@Z
+	?_Throw_system_error@std@@YAXW4errc@1@@Z
+	?_Throw_system_error_from_std_win_error@std@@YAXW4__std_win_error@@@Z
+	?_Tidy_deallocate@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@AEAAXXZ
+	?_Xlen_string@std@@YAXXZ
+	?_Xlength@?$vector@VMat@cv@@V?$allocator@VMat@cv@@@std@@@std@@CAXXZ
+	?adjustBrightness@Lev_PictureManager@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z
+	?allocate@?$allocator@D@std@@QEAAPEAD_K@Z
+	?allocate@?$allocator@_W@std@@QEAAPEA_W_K@Z
+	?append@?$QList@UDet_Obj@Lev_PictureManager@@@@QEAAXAEBUDet_Obj@Lev_PictureManager@@@Z
+	?append@?$QList@VQPoint@@@@QEAAXAEBVQPoint@@@Z
+	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z
+	?begin@?$QTypedArrayData@UDet_Obj@Lev_PictureManager@@@@QEAAPEAUDet_Obj@Lev_PictureManager@@PEAU23@@Z
+	?begin@?$QTypedArrayData@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@QEAAPEAV?$QList@UDet_Obj@Lev_PictureManager@@@@PEAV2@@Z
+	?begin@?$QTypedArrayData@V?$QVector@UDet_Obj@Lev_PictureManager@@@@@@QEAAPEAV?$QVector@UDet_Obj@Lev_PictureManager@@@@PEAV2@@Z
+	?begin@?$QTypedArrayData@V?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@@@QEAAPEAV?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@PEAV2@@Z
+	?begin@?$QVector@UDet_Obj@Lev_PictureManager@@@@QEAAPEAUDet_Obj@Lev_PictureManager@@XZ
+	?begin@?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@QEAAPEAV?$QList@UDet_Obj@Lev_PictureManager@@@@XZ
+	?begin@?$QVector@V?$QVector@UDet_Obj@Lev_PictureManager@@@@@@QEAAPEAV?$QVector@UDet_Obj@Lev_PictureManager@@@@XZ
+	?begin@?$QVector@V?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@@@QEAAPEAV?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@XZ
+	?clone@?$big_any_policy@Uempty_any@anyimpl@cvflann@@@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z
+	?clone@?$big_any_policy@VString@cv@@@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z
+	?clone@?$big_any_policy@W4flann_algorithm_t@cvflann@@@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z
+	?clone@?$big_any_policy@W4flann_centers_init_t@cvflann@@@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z
+	?clone@?$small_any_policy@H@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z
+	?clone@?$small_any_policy@I@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z
+	?clone@?$small_any_policy@M@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z
+	?clone@?$small_any_policy@PEBD@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z
+	?clone@?$small_any_policy@_N@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z
+	?copyConstruct@?$QVector@UDet_Obj@Lev_PictureManager@@@@AEAAXPEBUDet_Obj@Lev_PictureManager@@0PEAU23@@Z
+	?copyConstruct@?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@AEAAXPEBV?$QList@UDet_Obj@Lev_PictureManager@@@@0PEAV2@@Z
+	?copy_from_value@?$big_any_policy@Uempty_any@anyimpl@cvflann@@@anyimpl@cvflann@@UEAAXPEBXPEAPEAX@Z
+	?copy_from_value@?$big_any_policy@VString@cv@@@anyimpl@cvflann@@UEAAXPEBXPEAPEAX@Z
+	?copy_from_value@?$big_any_policy@W4flann_algorithm_t@cvflann@@@anyimpl@cvflann@@UEAAXPEBXPEAPEAX@Z
+	?copy_from_value@?$big_any_policy@W4flann_centers_init_t@cvflann@@@anyimpl@cvflann@@UEAAXPEBXPEAPEAX@Z
+	?copy_from_value@?$small_any_policy@H@anyimpl@cvflann@@UEAAXPEBXPEAPEAX@Z
+	?copy_from_value@?$small_any_policy@I@anyimpl@cvflann@@UEAAXPEBXPEAPEAX@Z
+	?copy_from_value@?$small_any_policy@M@anyimpl@cvflann@@UEAAXPEBXPEAPEAX@Z
+	?copy_from_value@?$small_any_policy@PEBD@anyimpl@cvflann@@UEAAXPEBXPEAPEAX@Z
+	?copy_from_value@?$small_any_policy@_N@anyimpl@cvflann@@UEAAXPEBXPEAPEAX@Z
+	?deallocate@?$QTypedArrayData@UDet_Obj@Lev_PictureManager@@@@SAXPEAUQArrayData@@@Z
+	?deallocate@?$QTypedArrayData@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@SAXPEAUQArrayData@@@Z
+	?deallocate@?$QTypedArrayData@V?$QVector@UDet_Obj@Lev_PictureManager@@@@@@SAXPEAUQArrayData@@@Z
+	?deallocate@?$QTypedArrayData@V?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@@@SAXPEAUQArrayData@@@Z
+	?deallocate@?$allocator@D@std@@QEAAXQEAD_K@Z
+	?deallocate@?$allocator@VMat@cv@@@std@@QEAAXQEAVMat@cv@@_K@Z
+	?defaultConstruct@?$QVector@UDet_Obj@Lev_PictureManager@@@@AEAAXPEAUDet_Obj@Lev_PictureManager@@0@Z
+	?defaultConstruct@?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@AEAAXPEAV?$QList@UDet_Obj@Lev_PictureManager@@@@0@Z
+	?defaultConstruct@?$QVector@V?$QVector@UDet_Obj@Lev_PictureManager@@@@@@AEAAXPEAV?$QVector@UDet_Obj@Lev_PictureManager@@@@0@Z
+	?defaultConstruct@?$QVector@V?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@@@AEAAXPEAV?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@0@Z
+	?default_error_condition@_System_error_category@std@@UEBA?AVerror_condition@2@H@Z
+	?default_error_condition@error_category@std@@UEBA?AVerror_condition@2@H@Z
+	?destruct@?$QVector@UDet_Obj@Lev_PictureManager@@@@AEAAXPEAUDet_Obj@Lev_PictureManager@@0@Z
+	?destruct@?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@AEAAXPEAV?$QList@UDet_Obj@Lev_PictureManager@@@@0@Z
+	?destruct@?$QVector@V?$QVector@UDet_Obj@Lev_PictureManager@@@@@@AEAAXPEAV?$QVector@UDet_Obj@Lev_PictureManager@@@@0@Z
+	?destruct@?$QVector@V?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@@@AEAAXPEAV?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@0@Z
+	?detach@?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@QEAAXXZ
+	?detach_helper@?$QList@UDet_Obj@Lev_PictureManager@@@@AEAAXH@Z
+	?detach_helper@?$QList@VQPoint@@@@AEAAXH@Z
+	?detach_helper_grow@?$QList@UDet_Obj@Lev_PictureManager@@@@AEAAPEAUNode@1@HH@Z
+	?detach_helper_grow@?$QList@VQPoint@@@@AEAAPEAUNode@1@HH@Z
+	?end@?$QVector@UDet_Obj@Lev_PictureManager@@@@QEAAPEAUDet_Obj@Lev_PictureManager@@XZ
+	?end@?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@QEAAPEAV?$QList@UDet_Obj@Lev_PictureManager@@@@XZ
+	?end@?$QVector@V?$QVector@UDet_Obj@Lev_PictureManager@@@@@@QEAAPEAV?$QVector@UDet_Obj@Lev_PictureManager@@@@XZ
+	?end@?$QVector@V?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@@@QEAAPEAV?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@XZ
+	?enhanceBrightnessImage@Lev_PictureManager@@YA?AVMat@cv@@AEBV23@@Z
+	?equivalent@error_category@std@@UEBA_NAEBVerror_code@2@H@Z
+	?equivalent@error_category@std@@UEBA_NHAEBVerror_condition@2@@Z
+	?extension@path@filesystem@std@@QEBA?AV123@XZ
+	?filename@path@filesystem@std@@QEBA?AV123@XZ
+	?freeData@?$QVector@UDet_Obj@Lev_PictureManager@@@@AEAAXPEAU?$QTypedArrayData@UDet_Obj@Lev_PictureManager@@@@@Z
+	?freeData@?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@AEAAXPEAU?$QTypedArrayData@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@@Z
+	?freeData@?$QVector@V?$QVector@UDet_Obj@Lev_PictureManager@@@@@@AEAAXPEAU?$QTypedArrayData@V?$QVector@UDet_Obj@Lev_PictureManager@@@@@@@Z
+	?freeData@?$QVector@V?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@@@AEAAXPEAU?$QTypedArrayData@V?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@@@@Z
+	?get_size@?$typed_base_any_policy@H@anyimpl@cvflann@@UEAA_KXZ
+	?get_size@?$typed_base_any_policy@I@anyimpl@cvflann@@UEAA_KXZ
+	?get_size@?$typed_base_any_policy@M@anyimpl@cvflann@@UEAA_KXZ
+	?get_size@?$typed_base_any_policy@PEBD@anyimpl@cvflann@@UEAA_KXZ
+	?get_size@?$typed_base_any_policy@Uempty_any@anyimpl@cvflann@@@anyimpl@cvflann@@UEAA_KXZ
+	?get_size@?$typed_base_any_policy@VString@cv@@@anyimpl@cvflann@@UEAA_KXZ
+	?get_size@?$typed_base_any_policy@W4flann_algorithm_t@cvflann@@@anyimpl@cvflann@@UEAA_KXZ
+	?get_size@?$typed_base_any_policy@W4flann_centers_init_t@cvflann@@@anyimpl@cvflann@@UEAA_KXZ
+	?get_size@?$typed_base_any_policy@_N@anyimpl@cvflann@@UEAA_KXZ
+	?get_value@?$big_any_policy@Uempty_any@anyimpl@cvflann@@@anyimpl@cvflann@@UEAAPEAXPEAPEAX@Z
+	?get_value@?$big_any_policy@Uempty_any@anyimpl@cvflann@@@anyimpl@cvflann@@UEAAPEBXPEBQEAX@Z
+	?get_value@?$big_any_policy@VString@cv@@@anyimpl@cvflann@@UEAAPEAXPEAPEAX@Z
+	?get_value@?$big_any_policy@VString@cv@@@anyimpl@cvflann@@UEAAPEBXPEBQEAX@Z
+	?get_value@?$big_any_policy@W4flann_algorithm_t@cvflann@@@anyimpl@cvflann@@UEAAPEAXPEAPEAX@Z
+	?get_value@?$big_any_policy@W4flann_algorithm_t@cvflann@@@anyimpl@cvflann@@UEAAPEBXPEBQEAX@Z
+	?get_value@?$big_any_policy@W4flann_centers_init_t@cvflann@@@anyimpl@cvflann@@UEAAPEAXPEAPEAX@Z
+	?get_value@?$big_any_policy@W4flann_centers_init_t@cvflann@@@anyimpl@cvflann@@UEAAPEBXPEBQEAX@Z
+	?get_value@?$small_any_policy@H@anyimpl@cvflann@@UEAAPEAXPEAPEAX@Z
+	?get_value@?$small_any_policy@H@anyimpl@cvflann@@UEAAPEBXPEBQEAX@Z
+	?get_value@?$small_any_policy@I@anyimpl@cvflann@@UEAAPEAXPEAPEAX@Z
+	?get_value@?$small_any_policy@I@anyimpl@cvflann@@UEAAPEBXPEBQEAX@Z
+	?get_value@?$small_any_policy@M@anyimpl@cvflann@@UEAAPEAXPEAPEAX@Z
+	?get_value@?$small_any_policy@M@anyimpl@cvflann@@UEAAPEBXPEBQEAX@Z
+	?get_value@?$small_any_policy@PEBD@anyimpl@cvflann@@UEAAPEAXPEAPEAX@Z
+	?get_value@?$small_any_policy@PEBD@anyimpl@cvflann@@UEAAPEBXPEBQEAX@Z
+	?get_value@?$small_any_policy@_N@anyimpl@cvflann@@UEAAPEAXPEAPEAX@Z
+	?get_value@?$small_any_policy@_N@anyimpl@cvflann@@UEAAPEBXPEBQEAX@Z
+	?imageToBase64@Lev_PictureManager@@YA?AVQString@@AEBV2@@Z
+	?isImageFileExtend@Lev_PictureManager@@YA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+	?loadJson@Lev_PictureManager@@YA?AV?$QList@UDet_Obj@Lev_PictureManager@@@@AEBVQString@@@Z
+	?make_error_code@std@@YA?AVerror_code@1@W4errc@1@@Z
+	?message@_Generic_error_category@std@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@H@Z
+	?message@_System_error_category@std@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@H@Z
+	?move@?$big_any_policy@Uempty_any@anyimpl@cvflann@@@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z
+	?move@?$big_any_policy@VString@cv@@@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z
+	?move@?$big_any_policy@W4flann_algorithm_t@cvflann@@@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z
+	?move@?$big_any_policy@W4flann_centers_init_t@cvflann@@@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z
+	?move@?$small_any_policy@H@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z
+	?move@?$small_any_policy@I@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z
+	?move@?$small_any_policy@M@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z
+	?move@?$small_any_policy@PEBD@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z
+	?move@?$small_any_policy@_N@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z
+	?name@_Generic_error_category@std@@UEBAPEBDXZ
+	?name@_System_error_category@std@@UEBAPEBDXZ
+	?node_construct@?$QList@UDet_Obj@Lev_PictureManager@@@@AEAAXPEAUNode@1@AEBUDet_Obj@Lev_PictureManager@@@Z
+	?node_copy@?$QList@UDet_Obj@Lev_PictureManager@@@@AEAAXPEAUNode@1@00@Z
+	?node_copy@?$QList@VQPoint@@@@AEAAXPEAUNode@1@00@Z
+	?node_destruct@?$QList@UDet_Obj@Lev_PictureManager@@@@AEAAXPEAUNode@1@0@Z
+	?node_destruct@?$QList@VQPoint@@@@AEAAXPEAUNode@1@0@Z
+	?node_destruct@?$QList@VQPoint@@@@AEAAXPEAUNode@1@@Z
+	?print@?$big_any_policy@Uempty_any@anyimpl@cvflann@@@anyimpl@cvflann@@UEAAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBQEAX@Z
+	?print@?$big_any_policy@VString@cv@@@anyimpl@cvflann@@UEAAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBQEAX@Z
+	?print@?$big_any_policy@W4flann_algorithm_t@cvflann@@@anyimpl@cvflann@@UEAAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBQEAX@Z
+	?print@?$big_any_policy@W4flann_centers_init_t@cvflann@@@anyimpl@cvflann@@UEAAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBQEAX@Z
+	?print@?$small_any_policy@H@anyimpl@cvflann@@UEAAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBQEAX@Z
+	?print@?$small_any_policy@I@anyimpl@cvflann@@UEAAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBQEAX@Z
+	?print@?$small_any_policy@M@anyimpl@cvflann@@UEAAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBQEAX@Z
+	?print@?$small_any_policy@PEBD@anyimpl@cvflann@@UEAAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBQEAX@Z
+	?print@?$small_any_policy@_N@anyimpl@cvflann@@UEAAXAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@PEBQEAX@Z
+	?realloc@?$QVector@UDet_Obj@Lev_PictureManager@@@@AEAAXHV?$QFlags@W4AllocationOption@QArrayData@@@@@Z
+	?realloc@?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@AEAAXHV?$QFlags@W4AllocationOption@QArrayData@@@@@Z
+	?realloc@?$QVector@V?$QVector@UDet_Obj@Lev_PictureManager@@@@@@AEAAXHV?$QFlags@W4AllocationOption@QArrayData@@@@@Z
+	?realloc@?$QVector@V?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@@@AEAAXHV?$QFlags@W4AllocationOption@QArrayData@@@@@Z
+	?release@?$Ptr@VCLAHE@cv@@@cv@@QEAAXXZ
+	?release@Mat@cv@@QEAAXXZ
+	?resize@?$QVector@UDet_Obj@Lev_PictureManager@@@@QEAAXH@Z
+	?resize@?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@QEAAXH@Z
+	?resize@?$QVector@V?$QVector@UDet_Obj@Lev_PictureManager@@@@@@QEAAXH@Z
+	?resize@?$QVector@V?$QVector@V?$QList@UDet_Obj@Lev_PictureManager@@@@@@@@QEAAXH@Z
+	?resize@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAX_KD@Z
+	?resize@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@QEAAX_K_W@Z
+	?splitImage@Lev_PictureManager@@YA?AV?$vector@VMat@cv@@V?$allocator@VMat@cv@@@std@@@std@@AEBVMat@cv@@HH@Z
+	?static_delete@?$big_any_policy@Uempty_any@anyimpl@cvflann@@@anyimpl@cvflann@@UEAAXPEAPEAX@Z
+	?static_delete@?$big_any_policy@VString@cv@@@anyimpl@cvflann@@UEAAXPEAPEAX@Z
+	?static_delete@?$big_any_policy@W4flann_algorithm_t@cvflann@@@anyimpl@cvflann@@UEAAXPEAPEAX@Z
+	?static_delete@?$big_any_policy@W4flann_centers_init_t@cvflann@@@anyimpl@cvflann@@UEAAXPEAPEAX@Z
+	?static_delete@?$small_any_policy@H@anyimpl@cvflann@@UEAAXPEAPEAX@Z
+	?static_delete@?$small_any_policy@I@anyimpl@cvflann@@UEAAXPEAPEAX@Z
+	?static_delete@?$small_any_policy@M@anyimpl@cvflann@@UEAAXPEAPEAX@Z
+	?static_delete@?$small_any_policy@PEBD@anyimpl@cvflann@@UEAAXPEAPEAX@Z
+	?static_delete@?$small_any_policy@_N@anyimpl@cvflann@@UEAAXPEAPEAX@Z
+	?stem@path@filesystem@std@@QEBA?AV123@XZ
+	?string@path@filesystem@std@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@XZ
+	?type@?$typed_base_any_policy@H@anyimpl@cvflann@@UEAAAEBVtype_info@@XZ
+	?type@?$typed_base_any_policy@I@anyimpl@cvflann@@UEAAAEBVtype_info@@XZ
+	?type@?$typed_base_any_policy@M@anyimpl@cvflann@@UEAAAEBVtype_info@@XZ
+	?type@?$typed_base_any_policy@PEBD@anyimpl@cvflann@@UEAAAEBVtype_info@@XZ
+	?type@?$typed_base_any_policy@Uempty_any@anyimpl@cvflann@@@anyimpl@cvflann@@UEAAAEBVtype_info@@XZ
+	?type@?$typed_base_any_policy@VString@cv@@@anyimpl@cvflann@@UEAAAEBVtype_info@@XZ
+	?type@?$typed_base_any_policy@W4flann_algorithm_t@cvflann@@@anyimpl@cvflann@@UEAAAEBVtype_info@@XZ
+	?type@?$typed_base_any_policy@W4flann_centers_init_t@cvflann@@@anyimpl@cvflann@@UEAAAEBVtype_info@@XZ
+	?type@?$typed_base_any_policy@_N@anyimpl@cvflann@@UEAAAEBVtype_info@@XZ
+	?what@exception@std@@UEBAPEBDXZ
+	?what@filesystem_error@filesystem@std@@UEBAPEBDXZ

@@ -1,0 +1,39 @@
+﻿  Building Custom Rule H:/PictureAnalyser/Lev_PictureAnalyser/CMakeLists.txt
+  CMake is re-running because H:/PictureAnalyser/Lev_PictureAnalyser/build/CMakeFiles/generate.stamp is out-of-date.
+    the file 'H:/PictureAnalyser/Lev_PictureAnalyser/CMakeLists.txt'
+    is newer than 'H:/PictureAnalyser/Lev_PictureAnalyser/build/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.19045.
+  STATSUC:/Program Files (x86)/opencv/buildC:/Program Files (x86)/opencv/sources/includeC:/Program Files (x86)/opencv/sources/include/opencvC:/Program Files (x86)/opencv/sources/modules/core/includeC:/Program Files (x86)/opencv/sources/modules/flann/includeC:/Program Files (x86)/opencv/sources/modules/imgproc/includeC:/Program Files (x86)/opencv/sources/modules/ml/includeC:/Program Files (x86)/opencv/sources/modules/photo/includeC:/Program Files (x86)/opencv/sources/modules/video/includeC:/Program Files (x86)/opencv/sources/modules/dnn/includeC:/Program Files (x86)/opencv/sources/modules/imgcodecs/includeC:/Program Files (x86)/opencv/sources/modules/shape/includeC:/Program Files (x86)/opencv/sources/modules/videoio/includeC:/Program Files (x86)/opencv/sources/modules/highgui/includeC:/Program Files (x86)/opencv/sources/modules/superres/includeC:/Program Files (x86)/opencv/sources/modules/ts/includeC:/Program Files (x86)/opencv/sources/modules/features2d/includeC:/Program Files (x86)/opencv/sources/modules/calib3d/includeC:/Program Files (x86)/opencv/sources/modules/objdetect/includeC:/Program Files (x86)/opencv/sources/modules/stitching/includeC:/Program Files (x86)/opencv/sources/modules/videostab/include
+  CMake Deprecation Warning at Lev_ModelInfer/CMakeLists.txt:1 (cmake_minimum_required):
+    Compatibility with CMake < 3.5 will be removed from a future version of
+    CMake.
+  
+    Update the VERSION argument <min> value or use a ...<max> suffix to tell
+    CMake that the project does not need compatibility with older versions.
+  
+  
+  
+  CMake Warning (dev) at C:/Program Files/CMake/share/cmake-3.28/Modules/ExternalProject.cmake:3198 (message):
+    The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+    not set.  The policy's OLD behavior will be used.  When using a URL
+    download, the timestamps of extracted files should preferably be that of
+    the time of extraction, otherwise code that depends on the extracted
+    contents might not be rebuilt if the URL changes.  The OLD behavior
+    preserves the timestamps from the archive instead, but this is usually not
+    what you want.  Update your project to the NEW behavior or specify the
+    DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+    robustness issue.
+  Call Stack (most recent call first):
+    C:/Program Files/CMake/share/cmake-3.28/Modules/ExternalProject.cmake:4422 (_ep_add_download_command)
+    Lev_ModelInfer/cmake/yaml-cpp.cmake:8 (ExternalProject_Add)
+    Lev_ModelInfer/CMakeLists.txt:27 (include)
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  PADDLE_DIR IS:E:/Leventure/WorkShop/Python/paddle_inference
+  PADDLE_LIB_NAME:paddle_inference
+  DEPS:$DEPS
+  DEPS:E:/Leventure/WorkShop/Python/paddle_inference/paddle/lib/paddle_inference.libE:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mklml/lib/mklml.libE:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mklml/lib/libiomp5md.libE:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mkldnn/lib/mkldnn.libgloggflags_staticlibprotobufxxhashlibyaml-cppmtlibcmtshlwapiC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/lib/x64/cudart.libC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/lib/x64/cublas.libC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.0/lib/x64/cudnn.libopencv_calib3dopencv_coreopencv_dnnopencv_features2dopencv_flannopencv_highguiopencv_imgcodecsopencv_imgprocopencv_mlopencv_objdetectopencv_photoopencv_shapeopencv_stitchingopencv_superresopencv_videoopencv_videoioopencv_videostab
+  -- Configuring done (0.1s)
+  -- Generating done (0.2s)
+  -- Build files have been written to: H:/PictureAnalyser/Lev_PictureAnalyser/build

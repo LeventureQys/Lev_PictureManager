@@ -1,0 +1,33 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
+H:/PictureAnalyser/Lev_PictureAnalyser/build/ext/yaml-cpp/src/ext-yaml-cpp-build/CMakeFiles/3.28.1/CMakeCCompiler.cmake
+H:/PictureAnalyser/Lev_PictureAnalyser/build/ext/yaml-cpp/src/ext-yaml-cpp-build/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake
+H:/PictureAnalyser/Lev_PictureAnalyser/build/ext/yaml-cpp/src/ext-yaml-cpp-build/CMakeFiles/3.28.1/CMakeRCCompiler.cmake
+H:/PictureAnalyser/Lev_PictureAnalyser/build/ext/yaml-cpp/src/ext-yaml-cpp-build/CMakeFiles/3.28.1/CMakeSystem.cmake
+H:/PictureAnalyser/Lev_PictureAnalyser/build/ext/yaml-cpp/src/ext-yaml-cpp/CMakeLists.txt
+H:/PictureAnalyser/Lev_PictureAnalyser/build/ext/yaml-cpp/src/ext-yaml-cpp/yaml-cpp-config-version.cmake.in
+H:/PictureAnalyser/Lev_PictureAnalyser/build/ext/yaml-cpp/src/ext-yaml-cpp/yaml-cpp-config.cmake.in

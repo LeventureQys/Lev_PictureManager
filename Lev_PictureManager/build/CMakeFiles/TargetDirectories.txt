@@ -1,4 +1,0 @@
-D:/WorkShop/Lev_PictureManager/build/CMakeFiles/ALL_BUILD.dir
-D:/WorkShop/Lev_PictureManager/build/CMakeFiles/ZERO_CHECK.dir
-D:/WorkShop/Lev_PictureManager/build/Lev_Demo/CMakeFiles/Lev_Demo.dir
-D:/WorkShop/Lev_PictureManager/build/Lev_PictureManager/CMakeFiles/Lev_PictureManager.dir

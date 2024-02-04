@@ -1,0 +1,2 @@
+H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_PictureAnalyser/Lev_PictureAnalyser.dir/Debug/mocs_compilation_Debug.obj
+H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_PictureAnalyser/Lev_PictureAnalyser.dir/Debug/Lev_PictureAnalyser.obj

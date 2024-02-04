@@ -1,0 +1,815 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AB8D461C-327F-3652-8CEF-BD53CB44DA2C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ext-yaml-cpp</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp\include;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\include;E:\Leventure\WorkShop\Python\paddle_inference;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\protobuf\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\glog\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\gflags\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\xxhash\include;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\dirent\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\boost;E:\Leventure\WorkShop\Python\paddle_inference\third_party\eigen3;E:\Leventure\WorkShop\Python\paddle_inference\paddle\fluid\inference;E:\Leventure\WorkShop\Python\paddle_inference\paddle\include;C:\Program Files (x86)\opencv\build;C:\Program Files (x86)\opencv\sources\include;C:\Program Files (x86)\opencv\sources\include\opencv;C:\Program Files (x86)\opencv\sources\modules\core\include;C:\Program Files (x86)\opencv\sources\modules\flann\include;C:\Program Files (x86)\opencv\sources\modules\imgproc\include;C:\Program Files (x86)\opencv\sources\modules\ml\include;C:\Program Files (x86)\opencv\sources\modules\photo\include;C:\Program Files (x86)\opencv\sources\modules\video\include;C:\Program Files (x86)\opencv\sources\modules\dnn\include;C:\Program Files (x86)\opencv\sources\modules\imgcodecs\include;C:\Program Files (x86)\opencv\sources\modules\shape\include;C:\Program Files (x86)\opencv\sources\modules\videoio\include;C:\Program Files (x86)\opencv\sources\modules\highgui\include;C:\Program Files (x86)\opencv\sources\modules\superres\include;C:\Program Files (x86)\opencv\sources\modules\ts\include;C:\Program Files (x86)\opencv\sources\modules\features2d\include;C:\Program Files (x86)\opencv\sources\modules\calib3d\include;C:\Program Files (x86)\opencv\sources\modules\objdetect\include;C:\Program Files (x86)\opencv\sources\modules\stitching\include;C:\Program Files (x86)\opencv\sources\modules\videostab\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mklml\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mkldnn\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp\include;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\include;E:\Leventure\WorkShop\Python\paddle_inference;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\protobuf\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\glog\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\gflags\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\xxhash\include;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\dirent\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\boost;E:\Leventure\WorkShop\Python\paddle_inference\third_party\eigen3;E:\Leventure\WorkShop\Python\paddle_inference\paddle\fluid\inference;E:\Leventure\WorkShop\Python\paddle_inference\paddle\include;C:\Program Files (x86)\opencv\build;C:\Program Files (x86)\opencv\sources\include;C:\Program Files (x86)\opencv\sources\include\opencv;C:\Program Files (x86)\opencv\sources\modules\core\include;C:\Program Files (x86)\opencv\sources\modules\flann\include;C:\Program Files (x86)\opencv\sources\modules\imgproc\include;C:\Program Files (x86)\opencv\sources\modules\ml\include;C:\Program Files (x86)\opencv\sources\modules\photo\include;C:\Program Files (x86)\opencv\sources\modules\video\include;C:\Program Files (x86)\opencv\sources\modules\dnn\include;C:\Program Files (x86)\opencv\sources\modules\imgcodecs\include;C:\Program Files (x86)\opencv\sources\modules\shape\include;C:\Program Files (x86)\opencv\sources\modules\videoio\include;C:\Program Files (x86)\opencv\sources\modules\highgui\include;C:\Program Files (x86)\opencv\sources\modules\superres\include;C:\Program Files (x86)\opencv\sources\modules\ts\include;C:\Program Files (x86)\opencv\sources\modules\features2d\include;C:\Program Files (x86)\opencv\sources\modules\calib3d\include;C:\Program Files (x86)\opencv\sources\modules\objdetect\include;C:\Program Files (x86)\opencv\sources\modules\stitching\include;C:\Program Files (x86)\opencv\sources\modules\videostab\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mklml\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mkldnn\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp\include;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\include;E:\Leventure\WorkShop\Python\paddle_inference;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\protobuf\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\glog\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\gflags\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\xxhash\include;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\dirent\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\boost;E:\Leventure\WorkShop\Python\paddle_inference\third_party\eigen3;E:\Leventure\WorkShop\Python\paddle_inference\paddle\fluid\inference;E:\Leventure\WorkShop\Python\paddle_inference\paddle\include;C:\Program Files (x86)\opencv\build;C:\Program Files (x86)\opencv\sources\include;C:\Program Files (x86)\opencv\sources\include\opencv;C:\Program Files (x86)\opencv\sources\modules\core\include;C:\Program Files (x86)\opencv\sources\modules\flann\include;C:\Program Files (x86)\opencv\sources\modules\imgproc\include;C:\Program Files (x86)\opencv\sources\modules\ml\include;C:\Program Files (x86)\opencv\sources\modules\photo\include;C:\Program Files (x86)\opencv\sources\modules\video\include;C:\Program Files (x86)\opencv\sources\modules\dnn\include;C:\Program Files (x86)\opencv\sources\modules\imgcodecs\include;C:\Program Files (x86)\opencv\sources\modules\shape\include;C:\Program Files (x86)\opencv\sources\modules\videoio\include;C:\Program Files (x86)\opencv\sources\modules\highgui\include;C:\Program Files (x86)\opencv\sources\modules\superres\include;C:\Program Files (x86)\opencv\sources\modules\ts\include;C:\Program Files (x86)\opencv\sources\modules\features2d\include;C:\Program Files (x86)\opencv\sources\modules\calib3d\include;C:\Program Files (x86)\opencv\sources\modules\objdetect\include;C:\Program Files (x86)\opencv\sources\modules\stitching\include;C:\Program Files (x86)\opencv\sources\modules\videostab\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mklml\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mkldnn\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp\include;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\include;E:\Leventure\WorkShop\Python\paddle_inference;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\protobuf\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\glog\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\gflags\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\xxhash\include;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\dirent\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\boost;E:\Leventure\WorkShop\Python\paddle_inference\third_party\eigen3;E:\Leventure\WorkShop\Python\paddle_inference\paddle\fluid\inference;E:\Leventure\WorkShop\Python\paddle_inference\paddle\include;C:\Program Files (x86)\opencv\build;C:\Program Files (x86)\opencv\sources\include;C:\Program Files (x86)\opencv\sources\include\opencv;C:\Program Files (x86)\opencv\sources\modules\core\include;C:\Program Files (x86)\opencv\sources\modules\flann\include;C:\Program Files (x86)\opencv\sources\modules\imgproc\include;C:\Program Files (x86)\opencv\sources\modules\ml\include;C:\Program Files (x86)\opencv\sources\modules\photo\include;C:\Program Files (x86)\opencv\sources\modules\video\include;C:\Program Files (x86)\opencv\sources\modules\dnn\include;C:\Program Files (x86)\opencv\sources\modules\imgcodecs\include;C:\Program Files (x86)\opencv\sources\modules\shape\include;C:\Program Files (x86)\opencv\sources\modules\videoio\include;C:\Program Files (x86)\opencv\sources\modules\highgui\include;C:\Program Files (x86)\opencv\sources\modules\superres\include;C:\Program Files (x86)\opencv\sources\modules\ts\include;C:\Program Files (x86)\opencv\sources\modules\features2d\include;C:\Program Files (x86)\opencv\sources\modules\calib3d\include;C:\Program Files (x86)\opencv\sources\modules\objdetect\include;C:\Program Files (x86)\opencv\sources\modules\stitching\include;C:\Program Files (x86)\opencv\sources\modules\videostab\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mklml\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mkldnn\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\f9e65d23faa46a475e0d2885428a90ea\ext-yaml-cpp-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/tmp/ext-yaml-cpp-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/Debug/ext-yaml-cpp-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Debug\ext-yaml-cpp-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Creating directories for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Release -P E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/tmp/ext-yaml-cpp-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/Release/ext-yaml-cpp-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Release\ext-yaml-cpp-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Creating directories for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/MinSizeRel -P E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/tmp/ext-yaml-cpp-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/MinSizeRel/ext-yaml-cpp-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\MinSizeRel\ext-yaml-cpp-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Creating directories for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/RelWithDebInfo -P E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/tmp/ext-yaml-cpp-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/RelWithDebInfo/ext-yaml-cpp-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\RelWithDebInfo\ext-yaml-cpp-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\f9e65d23faa46a475e0d2885428a90ea\ext-yaml-cpp-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (download, verify and extract) for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dconfig=$(Configuration) -P E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/ext-yaml-cpp-download-Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/Debug/ext-yaml-cpp-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\download-ext-yaml-cpp.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\ext-yaml-cpp-urlinfo.txt;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Debug\ext-yaml-cpp-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Debug\ext-yaml-cpp-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing download step (download, verify and extract) for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dconfig=$(Configuration) -P E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/ext-yaml-cpp-download-Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/Release/ext-yaml-cpp-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\download-ext-yaml-cpp.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\ext-yaml-cpp-urlinfo.txt;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Release\ext-yaml-cpp-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Release\ext-yaml-cpp-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing download step (download, verify and extract) for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dconfig=$(Configuration) -P E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/ext-yaml-cpp-download-MinSizeRel.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/MinSizeRel/ext-yaml-cpp-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\download-ext-yaml-cpp.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\ext-yaml-cpp-urlinfo.txt;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\MinSizeRel\ext-yaml-cpp-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\MinSizeRel\ext-yaml-cpp-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing download step (download, verify and extract) for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dconfig=$(Configuration) -P E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/ext-yaml-cpp-download-RelWithDebInfo.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/RelWithDebInfo/ext-yaml-cpp-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\download-ext-yaml-cpp.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\ext-yaml-cpp-urlinfo.txt;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\RelWithDebInfo\ext-yaml-cpp-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\RelWithDebInfo\ext-yaml-cpp-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\f9e65d23faa46a475e0d2885428a90ea\ext-yaml-cpp-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No update step for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/Debug/ext-yaml-cpp-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\ext-yaml-cpp-update-info.txt;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Debug\ext-yaml-cpp-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Debug\ext-yaml-cpp-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No update step for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/Release/ext-yaml-cpp-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\ext-yaml-cpp-update-info.txt;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Release\ext-yaml-cpp-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Release\ext-yaml-cpp-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No update step for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/MinSizeRel/ext-yaml-cpp-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\ext-yaml-cpp-update-info.txt;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\MinSizeRel\ext-yaml-cpp-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\MinSizeRel\ext-yaml-cpp-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No update step for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/RelWithDebInfo/ext-yaml-cpp-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\ext-yaml-cpp-update-info.txt;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\RelWithDebInfo\ext-yaml-cpp-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\RelWithDebInfo\ext-yaml-cpp-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\f9e65d23faa46a475e0d2885428a90ea\ext-yaml-cpp-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/Debug/ext-yaml-cpp-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\ext-yaml-cpp-patch-info.txt;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Debug\ext-yaml-cpp-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Debug\ext-yaml-cpp-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No patch step for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/Release/ext-yaml-cpp-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\ext-yaml-cpp-patch-info.txt;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Release\ext-yaml-cpp-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Release\ext-yaml-cpp-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No patch step for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/MinSizeRel/ext-yaml-cpp-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\ext-yaml-cpp-patch-info.txt;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\MinSizeRel\ext-yaml-cpp-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\MinSizeRel\ext-yaml-cpp-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No patch step for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/RelWithDebInfo/ext-yaml-cpp-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\ext-yaml-cpp-patch-info.txt;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\RelWithDebInfo\ext-yaml-cpp-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\RelWithDebInfo\ext-yaml-cpp-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\f9e65d23faa46a475e0d2885428a90ea\ext-yaml-cpp-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing configure step for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DYAML_CPP_BUILD_TESTS=OFF -DYAML_CPP_BUILD_TOOLS=OFF -DYAML_CPP_INSTALL=OFF -DYAML_CPP_BUILD_CONTRIB=OFF -DMSVC_SHARED_RT=OFF -DBUILD_SHARED_LIBS=OFF -DCMAKE_BUILD_TYPE= "-DCMAKE_CXX_FLAGS=/DWIN32 /D_WINDOWS /W3 /GR /EHsc" "-DCMAKE_CXX_FLAGS_DEBUG=/MDd /Zi /Ob0 /Od /RTC1" "-DCMAKE_CXX_FLAGS_RELEASE=/MD /O2 /Ob2 /DNDEBUG" -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/lib -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY=E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/lib "-GVisual Studio 17 2022" "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools" -S E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp -B E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/Debug/ext-yaml-cpp-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\tmp\ext-yaml-cpp-cfgcmd.txt;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Debug\ext-yaml-cpp-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Debug\ext-yaml-cpp-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing configure step for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DYAML_CPP_BUILD_TESTS=OFF -DYAML_CPP_BUILD_TOOLS=OFF -DYAML_CPP_INSTALL=OFF -DYAML_CPP_BUILD_CONTRIB=OFF -DMSVC_SHARED_RT=OFF -DBUILD_SHARED_LIBS=OFF -DCMAKE_BUILD_TYPE= "-DCMAKE_CXX_FLAGS=/DWIN32 /D_WINDOWS /W3 /GR /EHsc" "-DCMAKE_CXX_FLAGS_DEBUG=/MDd /Zi /Ob0 /Od /RTC1" "-DCMAKE_CXX_FLAGS_RELEASE=/MD /O2 /Ob2 /DNDEBUG" -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/lib -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY=E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/lib "-GVisual Studio 17 2022" "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools" -S E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp -B E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/Release/ext-yaml-cpp-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\tmp\ext-yaml-cpp-cfgcmd.txt;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Release\ext-yaml-cpp-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Release\ext-yaml-cpp-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing configure step for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DYAML_CPP_BUILD_TESTS=OFF -DYAML_CPP_BUILD_TOOLS=OFF -DYAML_CPP_INSTALL=OFF -DYAML_CPP_BUILD_CONTRIB=OFF -DMSVC_SHARED_RT=OFF -DBUILD_SHARED_LIBS=OFF -DCMAKE_BUILD_TYPE= "-DCMAKE_CXX_FLAGS=/DWIN32 /D_WINDOWS /W3 /GR /EHsc" "-DCMAKE_CXX_FLAGS_DEBUG=/MDd /Zi /Ob0 /Od /RTC1" "-DCMAKE_CXX_FLAGS_RELEASE=/MD /O2 /Ob2 /DNDEBUG" -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/lib -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY=E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/lib "-GVisual Studio 17 2022" "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools" -S E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp -B E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/MinSizeRel/ext-yaml-cpp-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\tmp\ext-yaml-cpp-cfgcmd.txt;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\MinSizeRel\ext-yaml-cpp-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\MinSizeRel\ext-yaml-cpp-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing configure step for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DYAML_CPP_BUILD_TESTS=OFF -DYAML_CPP_BUILD_TOOLS=OFF -DYAML_CPP_INSTALL=OFF -DYAML_CPP_BUILD_CONTRIB=OFF -DMSVC_SHARED_RT=OFF -DBUILD_SHARED_LIBS=OFF -DCMAKE_BUILD_TYPE= "-DCMAKE_CXX_FLAGS=/DWIN32 /D_WINDOWS /W3 /GR /EHsc" "-DCMAKE_CXX_FLAGS_DEBUG=/MDd /Zi /Ob0 /Od /RTC1" "-DCMAKE_CXX_FLAGS_RELEASE=/MD /O2 /Ob2 /DNDEBUG" -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/lib -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY=E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/lib "-GVisual Studio 17 2022" "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools" -S E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp -B E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/RelWithDebInfo/ext-yaml-cpp-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\tmp\ext-yaml-cpp-cfgcmd.txt;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\RelWithDebInfo\ext-yaml-cpp-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\RelWithDebInfo\ext-yaml-cpp-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\f9e65d23faa46a475e0d2885428a90ea\ext-yaml-cpp-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing build step for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dconfig=$(Configuration) -P E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/ext-yaml-cpp-build-Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/Debug/ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Debug\ext-yaml-cpp-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Debug\ext-yaml-cpp-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing build step for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dconfig=$(Configuration) -P E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/ext-yaml-cpp-build-Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/Release/ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Release\ext-yaml-cpp-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Release\ext-yaml-cpp-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing build step for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dconfig=$(Configuration) -P E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/ext-yaml-cpp-build-MinSizeRel.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/MinSizeRel/ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\MinSizeRel\ext-yaml-cpp-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\MinSizeRel\ext-yaml-cpp-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing build step for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dconfig=$(Configuration) -P E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/ext-yaml-cpp-build-RelWithDebInfo.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/RelWithDebInfo/ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\RelWithDebInfo\ext-yaml-cpp-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\RelWithDebInfo\ext-yaml-cpp-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\f9e65d23faa46a475e0d2885428a90ea\ext-yaml-cpp-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/Debug/ext-yaml-cpp-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Debug\ext-yaml-cpp-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Debug\ext-yaml-cpp-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No install step for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/Release/ext-yaml-cpp-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Release\ext-yaml-cpp-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Release\ext-yaml-cpp-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No install step for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/MinSizeRel/ext-yaml-cpp-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\MinSizeRel\ext-yaml-cpp-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\MinSizeRel\ext-yaml-cpp-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No install step for 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/RelWithDebInfo/ext-yaml-cpp-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\RelWithDebInfo\ext-yaml-cpp-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\RelWithDebInfo\ext-yaml-cpp-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\7a84e9c9668e6d14606ba4f7d6a0fef7\ext-yaml-cpp-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/CMakeFiles/Debug/ext-yaml-cpp-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/Debug/ext-yaml-cpp-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Debug\ext-yaml-cpp-install;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Debug\ext-yaml-cpp-mkdir;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Debug\ext-yaml-cpp-download;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Debug\ext-yaml-cpp-update;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Debug\ext-yaml-cpp-patch;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Debug\ext-yaml-cpp-configure;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Debug\ext-yaml-cpp-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\Debug\ext-yaml-cpp-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Completed 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/CMakeFiles/Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/CMakeFiles/Release/ext-yaml-cpp-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/Release/ext-yaml-cpp-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Release\ext-yaml-cpp-install;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Release\ext-yaml-cpp-mkdir;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Release\ext-yaml-cpp-download;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Release\ext-yaml-cpp-update;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Release\ext-yaml-cpp-patch;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Release\ext-yaml-cpp-configure;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\Release\ext-yaml-cpp-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\Release\ext-yaml-cpp-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Completed 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/CMakeFiles/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/CMakeFiles/MinSizeRel/ext-yaml-cpp-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/MinSizeRel/ext-yaml-cpp-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\MinSizeRel\ext-yaml-cpp-install;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\MinSizeRel\ext-yaml-cpp-mkdir;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\MinSizeRel\ext-yaml-cpp-download;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\MinSizeRel\ext-yaml-cpp-update;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\MinSizeRel\ext-yaml-cpp-patch;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\MinSizeRel\ext-yaml-cpp-configure;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\MinSizeRel\ext-yaml-cpp-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\MinSizeRel\ext-yaml-cpp-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Completed 'ext-yaml-cpp'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/CMakeFiles/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/CMakeFiles/RelWithDebInfo/ext-yaml-cpp-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/RelWithDebInfo/ext-yaml-cpp-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\RelWithDebInfo\ext-yaml-cpp-install;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\RelWithDebInfo\ext-yaml-cpp-mkdir;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\RelWithDebInfo\ext-yaml-cpp-download;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\RelWithDebInfo\ext-yaml-cpp-update;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\RelWithDebInfo\ext-yaml-cpp-patch;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\RelWithDebInfo\ext-yaml-cpp-configure;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-stamp\RelWithDebInfo\ext-yaml-cpp-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\RelWithDebInfo\ext-yaml-cpp-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\b8065e3b93682057324be9caa4c575f2\ext-yaml-cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\Debug\ext-yaml-cpp-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\ext-yaml-cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\Release\ext-yaml-cpp-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\ext-yaml-cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\MinSizeRel\ext-yaml-cpp-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\ext-yaml-cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\RelWithDebInfo\ext-yaml-cpp-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\ext-yaml-cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp -BE:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build --check-stamp-file E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\opencv\build\OpenCVConfig-version.cmake;C:\Program Files (x86)\opencv\build\OpenCVConfig.cmake;C:\Program Files (x86)\opencv\build\OpenCVModules.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\download.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\extractfile.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\3.28.1\CMakeCCompiler.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\3.28.1\CMakeSystem.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\tmp\ext-yaml-cpp-mkdirs.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\cmake\yaml-cpp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp -BE:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build --check-stamp-file E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\opencv\build\OpenCVConfig-version.cmake;C:\Program Files (x86)\opencv\build\OpenCVConfig.cmake;C:\Program Files (x86)\opencv\build\OpenCVModules.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\download.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\extractfile.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\3.28.1\CMakeCCompiler.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\3.28.1\CMakeSystem.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\tmp\ext-yaml-cpp-mkdirs.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\cmake\yaml-cpp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp -BE:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build --check-stamp-file E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files (x86)\opencv\build\OpenCVConfig-version.cmake;C:\Program Files (x86)\opencv\build\OpenCVConfig.cmake;C:\Program Files (x86)\opencv\build\OpenCVModules.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\download.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\extractfile.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\3.28.1\CMakeCCompiler.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\3.28.1\CMakeSystem.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\tmp\ext-yaml-cpp-mkdirs.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\cmake\yaml-cpp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp -BE:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build --check-stamp-file E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files (x86)\opencv\build\OpenCVConfig-version.cmake;C:\Program Files (x86)\opencv\build\OpenCVConfig.cmake;C:\Program Files (x86)\opencv\build\OpenCVModules.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\download.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\extractfile.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\3.28.1\CMakeCCompiler.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\3.28.1\CMakeSystem.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\tmp\ext-yaml-cpp-mkdirs.cmake;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\cmake\yaml-cpp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\ext-yaml-cpp">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ZERO_CHECK.vcxproj">
+      <Project>{63AEBE75-8C96-3C28-BF87-A7A4FFC2332D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\PictureAnalyser\Lev_PictureAnalyser\build\CMakeFiles\8dde2b0456ed169a2f1a314635a41a2a\ext-yaml-cpp-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\PictureAnalyser\Lev_PictureAnalyser\build\CMakeFiles\8dde2b0456ed169a2f1a314635a41a2a\ext-yaml-cpp-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\PictureAnalyser\Lev_PictureAnalyser\build\CMakeFiles\8dde2b0456ed169a2f1a314635a41a2a\ext-yaml-cpp-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\PictureAnalyser\Lev_PictureAnalyser\build\CMakeFiles\8dde2b0456ed169a2f1a314635a41a2a\ext-yaml-cpp-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\PictureAnalyser\Lev_PictureAnalyser\build\CMakeFiles\8dde2b0456ed169a2f1a314635a41a2a\ext-yaml-cpp-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\PictureAnalyser\Lev_PictureAnalyser\build\CMakeFiles\8dde2b0456ed169a2f1a314635a41a2a\ext-yaml-cpp-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\PictureAnalyser\Lev_PictureAnalyser\build\CMakeFiles\8dde2b0456ed169a2f1a314635a41a2a\ext-yaml-cpp-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\PictureAnalyser\Lev_PictureAnalyser\build\CMakeFiles\7ac10cc3dc56c32d452039701e176c45\ext-yaml-cpp-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\PictureAnalyser\Lev_PictureAnalyser\build\CMakeFiles\910e5e417013675d5dd1d306d9005c89\ext-yaml-cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\PictureAnalyser\Lev_PictureAnalyser\Lev_Demo\Lev_ModelInfer\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="H:\PictureAnalyser\Lev_PictureAnalyser\build\Lev_Demo\Lev_ModelInfer\CMakeFiles\ext-yaml-cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B8977912-A74F-378A-88D9-6C12691887CF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

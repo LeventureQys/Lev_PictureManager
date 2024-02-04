@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=C:/Program Files/CMake/bin/cmake.exe;-P;H:/PictureAnalyser/Lev_PictureAnalyser/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/download-ext-yaml-cpp.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-P;H:/PictureAnalyser/Lev_PictureAnalyser/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/verify-ext-yaml-cpp.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-P;H:/PictureAnalyser/Lev_PictureAnalyser/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/extract-ext-yaml-cpp.cmake
+source_dir=H:/PictureAnalyser/Lev_PictureAnalyser/build/ext/yaml-cpp/src/ext-yaml-cpp
+work_dir=H:/PictureAnalyser/Lev_PictureAnalyser/build/ext/yaml-cpp/src
+url(s)=https://bj.bcebos.com/paddlex/deploy/deps/yaml-cpp.zip
+hash=MD5=9542d6de397d1fbd649ed468cb5850e6
+no_extract=
+

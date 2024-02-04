@@ -1,5 +1,0 @@
-F:/Opencv开发/PictureManager/Lev_PictureManager/out/build/x64-debug/CMakeFiles/edit_cache.dir
-F:/Opencv开发/PictureManager/Lev_PictureManager/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
-F:/Opencv开发/PictureManager/Lev_PictureManager/out/build/x64-debug/Lev_PictureManager/CMakeFiles/Lev_PictureManager.dir
-F:/Opencv开发/PictureManager/Lev_PictureManager/out/build/x64-debug/Lev_PictureManager/CMakeFiles/edit_cache.dir
-F:/Opencv开发/PictureManager/Lev_PictureManager/out/build/x64-debug/Lev_PictureManager/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,504 @@
+﻿  Building Custom Rule H:/PictureAnalyser/Lev_PictureAnalyser/Lev_ModelInfer/CMakeLists.txt
+  main.cc
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_tensor.h(176,15): warning C4251: “paddle_infer::Tensor::name_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“paddle_infer::Tensor”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_api.h(153,15): warning C4251: “paddle::PaddleTensor::name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“paddle::PaddleTensor”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_api.h(154,20): warning C4251: “paddle::PaddleTensor::shape”: class“std::vector<int,std::allocator<int>>”需要有 dll 接口由 struct“paddle::PaddleTensor”的客户端使用
+C:/Program Files (x86)/opencv/sources/modules/core/include\opencv2/core/types.hpp(737,44): message : 参见“std::vector<int,std::allocator<int>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_api.h(157,36): warning C4251: “paddle::PaddleTensor::lod”: class“std::vector<std::vector<size_t,std::allocator<size_t>>,std::allocator<std::vector<size_t,std::allocator<size_t>>>>”需要有 dll 接口由 struct“paddle::PaddleTensor”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_tensor.h(148,26): message : 参见“std::vector<std::vector<size_t,std::allocator<size_t>>,std::allocator<std::vector<size_t,std::allocator<size_t>>>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_api.h(321,15): warning C4251: “paddle::NativeConfig::prog_file”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“paddle::NativeConfig”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_api.h(323,4): warning C4251: “paddle::NativeConfig::param_file”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“paddle::NativeConfig”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_pass_builder.h(111,28): warning C4251: “paddle::PaddlePassBuilder::analysis_passes_”: class“std::vector<std::string,std::allocator<std::string>>”需要有 dll 接口由 class“paddle::PaddlePassBuilder”的客户端使用
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\include\Leventure_ModelInfer.h(35,46): message : 参见“std::vector<std::string,std::allocator<std::string>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_pass_builder.h(115,28): warning C4251: “paddle::PaddlePassBuilder::passes_”: class“std::vector<std::string,std::allocator<std::string>>”需要有 dll 接口由 class“paddle::PaddlePassBuilder”的客户端使用
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\include\Leventure_ModelInfer.h(35,46): message : 参见“std::vector<std::string,std::allocator<std::string>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(866,15): warning C4251: “paddle::AnalysisConfig::model_dir_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(867,23): warning C4251: “paddle::AnalysisConfig::prog_file_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(868,23): warning C4251: “paddle::AnalysisConfig::params_file_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(876,35): warning C4251: “paddle::AnalysisConfig::gpu_fp16_disabled_op_types_”: class“std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(261,34): message : 参见“std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(918,43): warning C4251: “paddle::AnalysisConfig::min_input_shape_”: class“std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(529,12): message : 参见“std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(919,43): warning C4251: “paddle::AnalysisConfig::max_input_shape_”: class“std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(529,12): message : 参见“std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(920,43): warning C4251: “paddle::AnalysisConfig::optim_input_shape_”: class“std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(529,12): message : 参见“std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(921,28): warning C4251: “paddle::AnalysisConfig::trt_disabled_ops_”: class“std::vector<std::string,std::allocator<std::string>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\include\Leventure_ModelInfer.h(35,46): message : 参见“std::vector<std::string,std::allocator<std::string>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(932,15): warning C4251: “paddle::AnalysisConfig::shape_range_info_path_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(942,35): warning C4251: “paddle::AnalysisConfig::mkldnn_enabled_op_types_”: class“std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(261,34): message : 参见“std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(959,15): warning C4251: “paddle::AnalysisConfig::serialized_info_cache_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(961,41): warning C4251: “paddle::AnalysisConfig::pass_builder_”: class“std::unique_ptr<paddle::PassStrategy,std::default_delete<paddle::PassStrategy>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(961,16): message : 参见“std::unique_ptr<paddle::PassStrategy,std::default_delete<paddle::PassStrategy>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(964,28): warning C4251: “paddle::AnalysisConfig::lite_passes_filter_”: class“std::vector<std::string,std::allocator<std::string>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\include\Leventure_ModelInfer.h(35,46): message : 参见“std::vector<std::string,std::allocator<std::string>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(965,28): warning C4251: “paddle::AnalysisConfig::lite_ops_filter_”: class“std::vector<std::string,std::allocator<std::string>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\include\Leventure_ModelInfer.h(35,46): message : 参见“std::vector<std::string,std::allocator<std::string>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(975,15): warning C4251: “paddle::AnalysisConfig::xpu_autotune_file_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(976,15): warning C4251: “paddle::AnalysisConfig::xpu_precision_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(985,42): warning C4251: “paddle::AnalysisConfig::mkldnn_quantizer_config_”: class“std::shared_ptr<paddle::MkldnnQuantizerConfig>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(985,8): message : 参见“std::shared_ptr<paddle::MkldnnQuantizerConfig>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(987,35): warning C4251: “paddle::AnalysisConfig::bfloat16_enabled_op_types_”: class“std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(261,34): message : 参见“std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(1006,15): warning C4251: “paddle::AnalysisConfig::opt_cache_dir_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(1010,14): warning C4251: “paddle::AnalysisConfig::dist_config_”: struct“paddle::DistConfig”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(79,8): message : 参见“paddle::DistConfig”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(410,49): warning C4244: “return”: 从“const uint64_t”转换到“int”，可能丢失数据
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_inference_api.h(153,44): warning C4251: “paddle_infer::Predictor::predictor_”: class“std::unique_ptr<paddle::PaddlePredictor,std::default_delete<paddle::PaddlePredictor>>”需要有 dll 接口由 class“paddle_infer::Predictor”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_api.h(288,16): message : 参见“std::unique_ptr<paddle::PaddlePredictor,std::default_delete<paddle::PaddlePredictor>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_inference_api.h(200,31): warning C4251: “paddle_infer::services::PredictorPool::main_pred_”: class“std::shared_ptr<paddle_infer::Predictor>”需要有 dll 接口由 class“paddle_infer::services::PredictorPool”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_inference_api.h(168,21): message : 参见“std::shared_ptr<paddle_infer::Predictor>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_inference_api.h(201,44): warning C4251: “paddle_infer::services::PredictorPool::preds_”: class“std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>,std::allocator<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>>>”需要有 dll 接口由 class“paddle_infer::services::PredictorPool”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_inference_api.h(201,9): message : 参见“std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>,std::allocator<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>>>”的声明
+H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include\yaml-cpp/node/detail/node_iterator.h(56,19): warning C4996: 'std::iterator<std::forward_iterator_tag,YAML::detail::node_iterator_value<V>,ptrdiff_t,YAML::detail::node_iterator_value<V> *,YAML::detail::node_iterator_value<V>>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+          with
+          [
+              V=YAML::detail::node
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(7123,54): message : 参见“std::iterator”的声明
+H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include\yaml-cpp/node/detail/iterator.h(90,13): message : 查看对正在编译的 类 模板 实例化“YAML::detail::node_iterator_base<YAML::detail::node>”的引用
+H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include\yaml-cpp/node/detail/iterator.h(92,2): message : 查看对正在编译的 类 模板 实例化“YAML::detail::iterator_base<V>”的引用
+H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include\yaml-cpp/node/detail/node_iterator.h(56,19): warning C4996: 'std::iterator<std::forward_iterator_tag,YAML::detail::node_iterator_value<V>,ptrdiff_t,YAML::detail::node_iterator_value<V> *,YAML::detail::node_iterator_value<V>>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+          with
+          [
+              V=const YAML::detail::node
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(7123,54): message : 参见“std::iterator”的声明
+H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include\yaml-cpp/node/detail/node_ref.h(43,23): message : 查看对正在编译的 类 模板 实例化“YAML::detail::node_iterator_base<const YAML::detail::node>”的引用
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\main.cc(224,12): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\main.cc(225,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“unsigned __int64”
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\main.cc(225,9): message : 请考虑在格式字符串中使用“%zd”
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\main.cc(229,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\main.cc(251,65): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  preprocess_op.cc
+H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include\yaml-cpp/node/detail/node_iterator.h(56,19): warning C4996: 'std::iterator<std::forward_iterator_tag,YAML::detail::node_iterator_value<V>,ptrdiff_t,YAML::detail::node_iterator_value<V> *,YAML::detail::node_iterator_value<V>>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+          with
+          [
+              V=YAML::detail::node
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(7123,54): message : 参见“std::iterator”的声明
+H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include\yaml-cpp/node/detail/iterator.h(90,13): message : 查看对正在编译的 类 模板 实例化“YAML::detail::node_iterator_base<YAML::detail::node>”的引用
+H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include\yaml-cpp/node/detail/iterator.h(92,2): message : 查看对正在编译的 类 模板 实例化“YAML::detail::iterator_base<V>”的引用
+H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include\yaml-cpp/node/detail/node_iterator.h(56,19): warning C4996: 'std::iterator<std::forward_iterator_tag,YAML::detail::node_iterator_value<V>,ptrdiff_t,YAML::detail::node_iterator_value<V> *,YAML::detail::node_iterator_value<V>>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+          with
+          [
+              V=const YAML::detail::node
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(7123,54): message : 参见“std::iterator”的声明
+H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include\yaml-cpp/node/detail/node_ref.h(43,23): message : 查看对正在编译的 类 模板 实例化“YAML::detail::node_iterator_base<const YAML::detail::node>”的引用
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(107,19): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(108,19): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(111,14): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(112,14): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(114,11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(115,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(116,12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(117,13): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(192,31): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(193,31): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(200,46): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(200,33): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(201,46): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(201,33): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(218,40): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(218,30): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(219,35): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(219,28): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(221,13): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(223,36): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(223,28): warning C4244: “参数”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(225,37): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(225,27): warning C4244: “参数”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(280,16): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(281,16): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(282,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(283,14): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(254,61): warning C4244: “初始化”: 从“_Ty”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty=float
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(797,13): message : 查看对正在编译的函数 模板 实例化“void std::_Construct_in_place<float,_Ty>(float &,_Ty &&) noexcept”的引用
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(782,20): message : 查看对正在编译的函数 模板 实例化“_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<int>(int &&)”的引用
+          with
+          [
+              _Ty=float
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(864,24): message : 查看对正在编译的函数 模板 实例化“_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<int>(int &&)”的引用
+          with
+          [
+              _Ty=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc(304,9): message : 查看对正在编译的函数 模板 实例化“_Ty &std::vector<_Ty,std::allocator<_Ty>>::emplace_back<int>(int &&)”的引用
+          with
+          [
+              _Ty=float
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xmemory(719,82): warning C4244: “初始化”: 从“_Ty”转换到“_Objty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Objty=float
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(836,23): message : 查看对正在编译的函数 模板 实例化“void std::_Default_allocator_traits<_Alloc>::construct<_Ty,int>(_Alloc &,_Objty *const ,int &&)”的引用
+          with
+          [
+              _Alloc=std::allocator<float>,
+              _Ty=float,
+              _Objty=float
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(785,17): message : 查看对正在编译的函数 模板 实例化“float *std::vector<float,std::allocator<float>>::_Emplace_reallocate<_Ty>(float *const ,_Ty &&)”的引用
+          with
+          [
+              _Ty=int
+          ]
+  object_detector.cc
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_tensor.h(176,15): warning C4251: “paddle_infer::Tensor::name_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“paddle_infer::Tensor”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_api.h(153,15): warning C4251: “paddle::PaddleTensor::name”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“paddle::PaddleTensor”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_api.h(154,20): warning C4251: “paddle::PaddleTensor::shape”: class“std::vector<int,std::allocator<int>>”需要有 dll 接口由 struct“paddle::PaddleTensor”的客户端使用
+C:/Program Files (x86)/opencv/sources/modules/core/include\opencv2/core/types.hpp(737,44): message : 参见“std::vector<int,std::allocator<int>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_api.h(157,36): warning C4251: “paddle::PaddleTensor::lod”: class“std::vector<std::vector<size_t,std::allocator<size_t>>,std::allocator<std::vector<size_t,std::allocator<size_t>>>>”需要有 dll 接口由 struct“paddle::PaddleTensor”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_tensor.h(148,26): message : 参见“std::vector<std::vector<size_t,std::allocator<size_t>>,std::allocator<std::vector<size_t,std::allocator<size_t>>>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_api.h(321,15): warning C4251: “paddle::NativeConfig::prog_file”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“paddle::NativeConfig”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_api.h(323,4): warning C4251: “paddle::NativeConfig::param_file”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“paddle::NativeConfig”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_pass_builder.h(111,28): warning C4251: “paddle::PaddlePassBuilder::analysis_passes_”: class“std::vector<std::string,std::allocator<std::string>>”需要有 dll 接口由 class“paddle::PaddlePassBuilder”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_tensor.h(30,23): message : 参见“std::vector<std::string,std::allocator<std::string>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_pass_builder.h(115,28): warning C4251: “paddle::PaddlePassBuilder::passes_”: class“std::vector<std::string,std::allocator<std::string>>”需要有 dll 接口由 class“paddle::PaddlePassBuilder”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_tensor.h(30,23): message : 参见“std::vector<std::string,std::allocator<std::string>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(866,15): warning C4251: “paddle::AnalysisConfig::model_dir_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(867,23): warning C4251: “paddle::AnalysisConfig::prog_file_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(868,23): warning C4251: “paddle::AnalysisConfig::params_file_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(876,35): warning C4251: “paddle::AnalysisConfig::gpu_fp16_disabled_op_types_”: class“std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(261,34): message : 参见“std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(918,43): warning C4251: “paddle::AnalysisConfig::min_input_shape_”: class“std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(529,12): message : 参见“std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(919,43): warning C4251: “paddle::AnalysisConfig::max_input_shape_”: class“std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(529,12): message : 参见“std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(920,43): warning C4251: “paddle::AnalysisConfig::optim_input_shape_”: class“std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(529,12): message : 参见“std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(921,28): warning C4251: “paddle::AnalysisConfig::trt_disabled_ops_”: class“std::vector<std::string,std::allocator<std::string>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_tensor.h(30,23): message : 参见“std::vector<std::string,std::allocator<std::string>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(932,15): warning C4251: “paddle::AnalysisConfig::shape_range_info_path_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(942,35): warning C4251: “paddle::AnalysisConfig::mkldnn_enabled_op_types_”: class“std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(261,34): message : 参见“std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(959,15): warning C4251: “paddle::AnalysisConfig::serialized_info_cache_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(961,41): warning C4251: “paddle::AnalysisConfig::pass_builder_”: class“std::unique_ptr<paddle::PassStrategy,std::default_delete<paddle::PassStrategy>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(961,16): message : 参见“std::unique_ptr<paddle::PassStrategy,std::default_delete<paddle::PassStrategy>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(964,28): warning C4251: “paddle::AnalysisConfig::lite_passes_filter_”: class“std::vector<std::string,std::allocator<std::string>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_tensor.h(30,23): message : 参见“std::vector<std::string,std::allocator<std::string>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(965,28): warning C4251: “paddle::AnalysisConfig::lite_ops_filter_”: class“std::vector<std::string,std::allocator<std::string>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_tensor.h(30,23): message : 参见“std::vector<std::string,std::allocator<std::string>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(975,15): warning C4251: “paddle::AnalysisConfig::xpu_autotune_file_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(976,15): warning C4251: “paddle::AnalysisConfig::xpu_precision_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(985,42): warning C4251: “paddle::AnalysisConfig::mkldnn_quantizer_config_”: class“std::shared_ptr<paddle::MkldnnQuantizerConfig>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(985,8): message : 参见“std::shared_ptr<paddle::MkldnnQuantizerConfig>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(987,35): warning C4251: “paddle::AnalysisConfig::bfloat16_enabled_op_types_”: class“std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(261,34): message : 参见“std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(1006,15): warning C4251: “paddle::AnalysisConfig::opt_cache_dir_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(1010,14): warning C4251: “paddle::AnalysisConfig::dist_config_”: struct“paddle::DistConfig”需要有 dll 接口由 struct“paddle::AnalysisConfig”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(79,8): message : 参见“paddle::DistConfig”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_analysis_config.h(410,49): warning C4244: “return”: 从“const uint64_t”转换到“int”，可能丢失数据
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_inference_api.h(153,44): warning C4251: “paddle_infer::Predictor::predictor_”: class“std::unique_ptr<paddle::PaddlePredictor,std::default_delete<paddle::PaddlePredictor>>”需要有 dll 接口由 class“paddle_infer::Predictor”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_api.h(288,16): message : 参见“std::unique_ptr<paddle::PaddlePredictor,std::default_delete<paddle::PaddlePredictor>>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_inference_api.h(200,31): warning C4251: “paddle_infer::services::PredictorPool::main_pred_”: class“std::shared_ptr<paddle_infer::Predictor>”需要有 dll 接口由 class“paddle_infer::services::PredictorPool”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_inference_api.h(168,21): message : 参见“std::shared_ptr<paddle_infer::Predictor>”的声明
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_inference_api.h(201,44): warning C4251: “paddle_infer::services::PredictorPool::preds_”: class“std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>,std::allocator<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>>>”需要有 dll 接口由 class“paddle_infer::services::PredictorPool”的客户端使用
+E:\Leventure\WorkShop\Python\paddle_inference\paddle\include\paddle_inference_api.h(201,9): message : 参见“std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>,std::allocator<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>>>”的声明
+H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include\yaml-cpp/node/detail/node_iterator.h(56,19): warning C4996: 'std::iterator<std::forward_iterator_tag,YAML::detail::node_iterator_value<V>,ptrdiff_t,YAML::detail::node_iterator_value<V> *,YAML::detail::node_iterator_value<V>>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+          with
+          [
+              V=YAML::detail::node
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(7123,54): message : 参见“std::iterator”的声明
+H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include\yaml-cpp/node/detail/iterator.h(90,13): message : 查看对正在编译的 类 模板 实例化“YAML::detail::node_iterator_base<YAML::detail::node>”的引用
+H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include\yaml-cpp/node/detail/iterator.h(92,2): message : 查看对正在编译的 类 模板 实例化“YAML::detail::iterator_base<V>”的引用
+H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include\yaml-cpp/node/detail/node_iterator.h(56,19): warning C4996: 'std::iterator<std::forward_iterator_tag,YAML::detail::node_iterator_value<V>,ptrdiff_t,YAML::detail::node_iterator_value<V> *,YAML::detail::node_iterator_value<V>>': warning STL4015: The std::iterator class template (used as a base class to provide typedefs) is deprecated in C++17. (The <iterator> header is NOT deprecated.) The C++ Standard has never required user-defined iterators to derive from std::iterator. To fix this warning, stop deriving from std::iterator and start providing publicly accessible typedefs named iterator_category, value_type, difference_type, pointer, and reference. Note that value_type is required to be non-const, even for constant iterators. You can define _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING or _SILENCE_ALL_CXX17_DEPRECATION_WARNINGS to suppress this warning.
+          with
+          [
+              V=const YAML::detail::node
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(7123,54): message : 参见“std::iterator”的声明
+H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include\yaml-cpp/node/detail/node_ref.h(43,23): message : 查看对正在编译的 类 模板 实例化“YAML::detail::node_iterator_base<const YAML::detail::node>”的引用
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(121,50): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(173,32): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(195,44): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(208,13): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(209,13): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(210,13): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(211,13): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(212,13): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(213,13): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(214,13): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(215,13): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(228,15): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(229,15): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(230,15): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(231,15): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(271,52): warning C4244: “=”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=int64_t
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(305,13): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(309,13): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(313,13): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(317,13): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(337,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(402,12): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(403,12): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(568,36): warning C4267: “参数”: 从“size_t”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(573,5): warning C4244: “参数”: 从“const double”转换到“float”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(303,21): message : 查看对正在编译的函数 模板 实例化“_InIt std::find_if<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,PaddleDetection::ObjectDetector::SOLOv2Postprocess::<lambda_1bce8a4fa59006d50af70e94ef8c0bc1>>(_InIt,const _InIt,_Pr)”的引用
+          with
+          [
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<float>>>,
+              _Ty=float,
+              _Pr=PaddleDetection::ObjectDetector::SOLOv2Postprocess::<lambda_1bce8a4fa59006d50af70e94ef8c0bc1>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xutility(6316,19): warning C4244: “参数”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc(311,22): message : 查看对正在编译的函数 模板 实例化“_InIt std::find_if<std::reverse_iterator<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>,PaddleDetection::ObjectDetector::SOLOv2Postprocess::<lambda_f338e60cfde337ca52fcc3e72031384b>>(_InIt,const _InIt,_Pr)”的引用
+          with
+          [
+              _InIt=std::reverse_iterator<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<float>>>>,
+              _Ty=float,
+              _Pr=PaddleDetection::ObjectDetector::SOLOv2Postprocess::<lambda_f338e60cfde337ca52fcc3e72031384b>
+          ]
+  picodet_postprocess.cc
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\picodet_postprocess.cc(27,19): warning C4244: “=”: 从“double”转换到“uint32_t”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\picodet_postprocess.cc(52,14): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\picodet_postprocess.cc(53,14): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\picodet_postprocess.cc(89,12): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\picodet_postprocess.cc(89,32): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\picodet_postprocess.cc(91,19): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\picodet_postprocess.cc(92,19): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\picodet_postprocess.cc(119,33): warning C4244: “=”: 从“_Ty”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+          and
+          [
+              _Ty=int
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\picodet_postprocess.cc(120,33): warning C4244: “=”: 从“_Ty”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+          and
+          [
+              _Ty=int
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\picodet_postprocess.cc(121,33): warning C4244: “=”: 从“_Ty”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+          and
+          [
+              _Ty=int
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\picodet_postprocess.cc(122,33): warning C4244: “=”: 从“_Ty”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+          and
+          [
+              _Ty=int
+          ]
+  utils.cc
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\utils.cc(26,13): warning C4244: “=”: 从“int”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\utils.cc(30,17): warning C4244: “初始化”: 从“const _Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\utils.cc(31,17): warning C4244: “初始化”: 从“const _Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\utils.cc(32,17): warning C4244: “初始化”: 从“const _Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\utils.cc(33,17): warning C4244: “初始化”: 从“const _Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+  正在生成代码...
+H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\main.cc(48): warning C4717: “Lev_ModelInfer::PrintBenchmarkLog”: 如递归所有控件路径，函数将导致运行时堆栈溢出
+    正在创建库 H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_ModelInfer/Release/Lev_ModelInfer.lib 和对象 H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_ModelInfer/Release/Lev_ModelInfer.exp
+  Lev_ModelInfer.vcxproj -> H:\PictureAnalyser\Lev_PictureAnalyser\build\Lev_ModelInfer\Release\Lev_ModelInfer.dll

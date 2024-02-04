@@ -1,0 +1,10 @@
+﻿  Building Custom Rule H:/PictureAnalyser/Lev_PictureAnalyser/CMakeLists.txt
+  CMake is re-running because H:/PictureAnalyser/Lev_PictureAnalyser/build/CMakeFiles/generate.stamp is out-of-date.
+    the file 'H:/PictureAnalyser/Lev_PictureAnalyser/CMakeLists.txt'
+    is newer than 'H:/PictureAnalyser/Lev_PictureAnalyser/build/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.19045.
+  STATSUC:/Program Files (x86)/opencv/buildC:/Program Files (x86)/opencv/sources/includeC:/Program Files (x86)/opencv/sources/include/opencvC:/Program Files (x86)/opencv/sources/modules/core/includeC:/Program Files (x86)/opencv/sources/modules/flann/includeC:/Program Files (x86)/opencv/sources/modules/imgproc/includeC:/Program Files (x86)/opencv/sources/modules/ml/includeC:/Program Files (x86)/opencv/sources/modules/photo/includeC:/Program Files (x86)/opencv/sources/modules/video/includeC:/Program Files (x86)/opencv/sources/modules/dnn/includeC:/Program Files (x86)/opencv/sources/modules/imgcodecs/includeC:/Program Files (x86)/opencv/sources/modules/shape/includeC:/Program Files (x86)/opencv/sources/modules/videoio/includeC:/Program Files (x86)/opencv/sources/modules/highgui/includeC:/Program Files (x86)/opencv/sources/modules/superres/includeC:/Program Files (x86)/opencv/sources/modules/ts/includeC:/Program Files (x86)/opencv/sources/modules/features2d/includeC:/Program Files (x86)/opencv/sources/modules/calib3d/includeC:/Program Files (x86)/opencv/sources/modules/objdetect/includeC:/Program Files (x86)/opencv/sources/modules/stitching/includeC:/Program Files (x86)/opencv/sources/modules/videostab/include
+  -- Configuring done (0.0s)
+  -- Generating done (0.1s)
+  -- Build files have been written to: H:/PictureAnalyser/Lev_PictureAnalyser/build

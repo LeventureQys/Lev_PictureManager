@@ -1,7 +1,0 @@
-# CMake generation dependency list for this directory.
-C:/Program Files (x86)/opencv/build/OpenCVConfig-version.cmake
-C:/Program Files (x86)/opencv/build/OpenCVConfig.cmake
-C:/Program Files (x86)/opencv/build/OpenCVModules.cmake
-C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
-C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
-F:/Opencv开发/PictureManager/Lev_PictureManager/Lev_Demo/CMakeLists.txt

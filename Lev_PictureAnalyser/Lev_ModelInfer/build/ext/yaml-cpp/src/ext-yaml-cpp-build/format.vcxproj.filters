@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-build\CMakeFiles\55faf0dcbc199656f54428292c6f3288\format.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-build\CMakeFiles\format" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CD732BC7-D2B9-3323-9E05-E34306877D13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

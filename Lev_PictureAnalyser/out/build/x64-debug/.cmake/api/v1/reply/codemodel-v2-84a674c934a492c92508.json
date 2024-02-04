@@ -1,0 +1,101 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Lev_PictureAnalyser",
+					"jsonFile" : "directory-Lev_PictureAnalyser-Debug-ddbb9014a22dc8cbf61c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Lev_PictureAnalyser",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Lev_Demo",
+					"jsonFile" : "directory-Lev_Demo-Debug-ecd468b6fa92e5babc72.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Lev_Demo",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "Lev_PictureAnalyser",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Lev_Demo::@5b086057338eac09805f",
+					"jsonFile" : "target-Lev_Demo-Debug-b5639a4ec3d9685ccad9.json",
+					"name" : "Lev_Demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Lev_PictureAnalyser::@bbbc96dc78d0cc8528ec",
+					"jsonFile" : "target-Lev_PictureAnalyser-Debug-e0ee3584a037ea0fde90.json",
+					"name" : "Lev_PictureAnalyser",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "H:/PictureAnalyser/Lev_PictureAnalyser/out/build/x64-debug",
+		"source" : "H:/PictureAnalyser/Lev_PictureAnalyser"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

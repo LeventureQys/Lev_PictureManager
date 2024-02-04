@@ -1,0 +1,14 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "本地计算机": [
+      "Lev_PictureAnalyser\\out\\build\\x64-debug",
+      "Lev_PictureAnalyser\\out\\install\\x64-debug",
+      "Lev_PictureAnalyser\\out\\build\\x64-release",
+      "Lev_PictureAnalyser\\out\\install\\x64-release",
+      "Lev_PictureAnalyser\\out\\build\\x86-debug",
+      "Lev_PictureAnalyser\\out\\install\\x86-debug",
+      "Lev_PictureAnalyser\\out\\build\\x86-release",
+      "Lev_PictureAnalyser\\out\\install\\x86-release"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\f9e65d23faa46a475e0d2885428a90ea\ext-yaml-cpp-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\f9e65d23faa46a475e0d2885428a90ea\ext-yaml-cpp-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\f9e65d23faa46a475e0d2885428a90ea\ext-yaml-cpp-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\f9e65d23faa46a475e0d2885428a90ea\ext-yaml-cpp-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\f9e65d23faa46a475e0d2885428a90ea\ext-yaml-cpp-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\f9e65d23faa46a475e0d2885428a90ea\ext-yaml-cpp-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\f9e65d23faa46a475e0d2885428a90ea\ext-yaml-cpp-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\7a84e9c9668e6d14606ba4f7d6a0fef7\ext-yaml-cpp-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\b8065e3b93682057324be9caa4c575f2\ext-yaml-cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\CMakeFiles\ext-yaml-cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7CC65E30-F81B-3D6D-826C-105678DB99C4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+-- verifying file...
+       file='E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/yaml-cpp.zip'
+-- File already exists and hash match (skip download):
+  file='E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/yaml-cpp.zip'
+  MD5='9542d6de397d1fbd649ed468cb5850e6'
+-- extracting...
+     src='E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/yaml-cpp.zip'
+     dst='E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done

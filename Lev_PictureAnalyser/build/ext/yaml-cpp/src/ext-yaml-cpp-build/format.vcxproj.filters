@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp-build\CMakeFiles\89a8888e95aa37d07df904390cb06122\format.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp-build\CMakeFiles\format" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{625FDF84-40B1-3A01-86EF-188627FE6F89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\src\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\src\preprocess_op.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\src\object_detector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\src\picodet_postprocess.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\src\utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0E4312E9-F4CA-3CEA-BDAF-EB16B3839B69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

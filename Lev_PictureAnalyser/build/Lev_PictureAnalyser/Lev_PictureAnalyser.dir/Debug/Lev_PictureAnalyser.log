@@ -1,0 +1,8 @@
+﻿  Automatic MOC for target Lev_PictureAnalyser
+  Building Custom Rule H:/PictureAnalyser/Lev_PictureAnalyser/Lev_PictureAnalyser/CMakeLists.txt
+  mocs_compilation_Debug.cpp
+  Lev_PictureAnalyser.cpp
+  正在生成代码...
+  Auto build dll exports
+    正在创建库 H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_PictureAnalyser/Debug/Lev_PictureAnalyser.lib 和对象 H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_PictureAnalyser/Debug/Lev_PictureAnalyser.exp
+  Lev_PictureAnalyser.vcxproj -> H:\PictureAnalyser\Lev_PictureAnalyser\build\Lev_PictureAnalyser\Debug\Lev_PictureAnalyser.dll

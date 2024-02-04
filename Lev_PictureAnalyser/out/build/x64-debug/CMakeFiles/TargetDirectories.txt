@@ -1,0 +1,8 @@
+H:/PictureAnalyser/Lev_PictureAnalyser/out/build/x64-debug/CMakeFiles/edit_cache.dir
+H:/PictureAnalyser/Lev_PictureAnalyser/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+H:/PictureAnalyser/Lev_PictureAnalyser/out/build/x64-debug/Lev_PictureAnalyser/CMakeFiles/Lev_PictureAnalyser.dir
+H:/PictureAnalyser/Lev_PictureAnalyser/out/build/x64-debug/Lev_PictureAnalyser/CMakeFiles/edit_cache.dir
+H:/PictureAnalyser/Lev_PictureAnalyser/out/build/x64-debug/Lev_PictureAnalyser/CMakeFiles/rebuild_cache.dir
+H:/PictureAnalyser/Lev_PictureAnalyser/out/build/x64-debug/Lev_Demo/CMakeFiles/Lev_Demo.dir
+H:/PictureAnalyser/Lev_PictureAnalyser/out/build/x64-debug/Lev_Demo/CMakeFiles/edit_cache.dir
+H:/PictureAnalyser/Lev_PictureAnalyser/out/build/x64-debug/Lev_Demo/CMakeFiles/rebuild_cache.dir

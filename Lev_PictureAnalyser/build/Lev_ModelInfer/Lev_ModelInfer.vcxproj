@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9F4A8EC2-3DED-39D1-95A3-88FF876E816F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Lev_ModelInfer</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\PictureAnalyser\Lev_PictureAnalyser\build\Lev_ModelInfer\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Lev_ModelInfer.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Lev_ModelInfer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\PictureAnalyser\Lev_PictureAnalyser\build\Lev_ModelInfer\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Lev_ModelInfer.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Lev_ModelInfer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\PictureAnalyser\Lev_PictureAnalyser\build\Lev_ModelInfer\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Lev_ModelInfer.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Lev_ModelInfer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\PictureAnalyser\Lev_PictureAnalyser\build\Lev_ModelInfer\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Lev_ModelInfer.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Lev_ModelInfer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\.;H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include;H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\include;H:\PictureAnalyser\Lev_PictureAnalyser;E:\Leventure\WorkShop\Python\paddle_inference;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\protobuf\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\glog\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\gflags\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\xxhash\include;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\dirent\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\boost;E:\Leventure\WorkShop\Python\paddle_inference\third_party\eigen3;E:\Leventure\WorkShop\Python\paddle_inference\paddle\fluid\inference;E:\Leventure\WorkShop\Python\paddle_inference\paddle\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mklml\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mkldnn\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Program Files (x86)/opencv/build" /external:I "C:/Program Files (x86)/opencv/sources/include" /external:I "C:/Program Files (x86)/opencv/sources/include/opencv" /external:I "C:/Program Files (x86)/opencv/sources/modules/core/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/flann/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/imgproc/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/ml/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/photo/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/video/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/dnn/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/imgcodecs/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/shape/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/videoio/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/highgui/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/superres/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/ts/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/features2d/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/calib3d/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/objdetect/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/stitching/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/videostab/include" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;USE_MKL;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR="Debug";Lev_ModelInfer_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;USE_MKL;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR=\"Debug\";Lev_ModelInfer_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\.;H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include;H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\include;H:\PictureAnalyser\Lev_PictureAnalyser;E:\Leventure\WorkShop\Python\paddle_inference;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\protobuf\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\glog\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\gflags\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\xxhash\include;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\dirent\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\boost;E:\Leventure\WorkShop\Python\paddle_inference\third_party\eigen3;E:\Leventure\WorkShop\Python\paddle_inference\paddle\fluid\inference;E:\Leventure\WorkShop\Python\paddle_inference\paddle\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mklml\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mkldnn\include;C:\Program Files (x86)\opencv\build;C:\Program Files (x86)\opencv\sources\include;C:\Program Files (x86)\opencv\sources\include\opencv;C:\Program Files (x86)\opencv\sources\modules\core\include;C:\Program Files (x86)\opencv\sources\modules\flann\include;C:\Program Files (x86)\opencv\sources\modules\imgproc\include;C:\Program Files (x86)\opencv\sources\modules\ml\include;C:\Program Files (x86)\opencv\sources\modules\photo\include;C:\Program Files (x86)\opencv\sources\modules\video\include;C:\Program Files (x86)\opencv\sources\modules\dnn\include;C:\Program Files (x86)\opencv\sources\modules\imgcodecs\include;C:\Program Files (x86)\opencv\sources\modules\shape\include;C:\Program Files (x86)\opencv\sources\modules\videoio\include;C:\Program Files (x86)\opencv\sources\modules\highgui\include;C:\Program Files (x86)\opencv\sources\modules\superres\include;C:\Program Files (x86)\opencv\sources\modules\ts\include;C:\Program Files (x86)\opencv\sources\modules\features2d\include;C:\Program Files (x86)\opencv\sources\modules\calib3d\include;C:\Program Files (x86)\opencv\sources\modules\objdetect\include;C:\Program Files (x86)\opencv\sources\modules\stitching\include;C:\Program Files (x86)\opencv\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\.;H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include;H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\include;H:\PictureAnalyser\Lev_PictureAnalyser;E:\Leventure\WorkShop\Python\paddle_inference;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\protobuf\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\glog\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\gflags\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\xxhash\include;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\dirent\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\boost;E:\Leventure\WorkShop\Python\paddle_inference\third_party\eigen3;E:\Leventure\WorkShop\Python\paddle_inference\paddle\fluid\inference;E:\Leventure\WorkShop\Python\paddle_inference\paddle\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mklml\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mkldnn\include;C:\Program Files (x86)\opencv\build;C:\Program Files (x86)\opencv\sources\include;C:\Program Files (x86)\opencv\sources\include\opencv;C:\Program Files (x86)\opencv\sources\modules\core\include;C:\Program Files (x86)\opencv\sources\modules\flann\include;C:\Program Files (x86)\opencv\sources\modules\imgproc\include;C:\Program Files (x86)\opencv\sources\modules\ml\include;C:\Program Files (x86)\opencv\sources\modules\photo\include;C:\Program Files (x86)\opencv\sources\modules\video\include;C:\Program Files (x86)\opencv\sources\modules\dnn\include;C:\Program Files (x86)\opencv\sources\modules\imgcodecs\include;C:\Program Files (x86)\opencv\sources\modules\shape\include;C:\Program Files (x86)\opencv\sources\modules\videoio\include;C:\Program Files (x86)\opencv\sources\modules\highgui\include;C:\Program Files (x86)\opencv\sources\modules\superres\include;C:\Program Files (x86)\opencv\sources\modules\ts\include;C:\Program Files (x86)\opencv\sources\modules\features2d\include;C:\Program Files (x86)\opencv\sources\modules\calib3d\include;C:\Program Files (x86)\opencv\sources\modules\objdetect\include;C:\Program Files (x86)\opencv\sources\modules\stitching\include;C:\Program Files (x86)\opencv\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mklml/lib/mklml.dll ./mklml.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mklml/lib/libiomp5md.dll ./libiomp5md.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mkldnn/lib/mkldnn.dll ./mkldnn.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mklml/lib/mklml.dll ./release/mklml.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mklml/lib/libiomp5md.dll ./release/libiomp5md.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mkldnn/lib/mkldnn.dll ./release/mkldnn.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/paddle/lib/paddle_inference.dll ./release/paddle_inference.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/onnxruntime/lib/onnxruntime.dll ./onnxruntime.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/paddle2onnx/lib/paddle2onnx.dll ./paddle2onnx.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/onnxruntime/lib/onnxruntime.dll ./release/onnxruntime.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/paddle2onnx/lib/paddle2onnx.dll ./release/paddle2onnx.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/paddle/lib/paddle_inference.dll ./release/paddle_inference.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>E:\Leventure\WorkShop\Python\paddle_inference\paddle\lib\paddle_inference.lib;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mklml\lib\mklml.lib;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mklml\lib\libiomp5md.lib;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mkldnn\lib\mkldnn.lib;glog.lib;gflags_static.lib;libprotobuf.lib;xxhash.lib;libyaml-cppmt.lib;libcmt.lib;shlwapi.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\lib\x64\cudart.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\lib\x64\cublas.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\lib\x64\cudnn.lib;C:\Program Files (x86)\opencv\build\lib\Debug\opencv_dnn346d.lib;C:\Program Files (x86)\opencv\build\lib\Debug\opencv_ml346d.lib;C:\Program Files (x86)\opencv\build\lib\Debug\opencv_objdetect346d.lib;C:\Program Files (x86)\opencv\build\lib\Debug\opencv_shape346d.lib;C:\Program Files (x86)\opencv\build\lib\Debug\opencv_stitching346d.lib;C:\Program Files (x86)\opencv\build\lib\Debug\opencv_superres346d.lib;C:\Program Files (x86)\opencv\build\lib\Debug\opencv_videostab346d.lib;C:\Program Files (x86)\opencv\build\lib\Debug\opencv_calib3d346d.lib;C:\Program Files (x86)\opencv\build\lib\Debug\opencv_features2d346d.lib;C:\Program Files (x86)\opencv\build\lib\Debug\opencv_flann346d.lib;C:\Program Files (x86)\opencv\build\lib\Debug\opencv_highgui346d.lib;C:\Program Files (x86)\opencv\build\lib\Debug\opencv_photo346d.lib;C:\Program Files (x86)\opencv\build\lib\Debug\opencv_video346d.lib;C:\Program Files (x86)\opencv\build\lib\Debug\opencv_videoio346d.lib;C:\Program Files (x86)\opencv\build\lib\Debug\opencv_imgcodecs346d.lib;C:\Program Files (x86)\opencv\build\lib\Debug\opencv_imgproc346d.lib;C:\Program Files (x86)\opencv\build\lib\Debug\opencv_core346d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>H:/PictureAnalyser/Lev_PictureAnalyser/build/ext/yaml-cpp/lib;H:/PictureAnalyser/Lev_PictureAnalyser/build/ext/yaml-cpp/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/protobuf/lib;E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/protobuf/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/glog/lib;E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/glog/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/gflags/lib;E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/gflags/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/xxhash/lib;E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/xxhash/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/paddle2onnx/lib;E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/paddle2onnx/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/onnxruntime/lib;E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/onnxruntime/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/paddle/lib;E:/Leventure/WorkShop/Python/paddle_inference/paddle/lib/$(Configuration);H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_ModelInfer;H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_ModelInfer/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/paddle/fluid/inference;E:/Leventure/WorkShop/Python/paddle_inference/paddle/fluid/inference/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_ModelInfer/Debug/Lev_ModelInfer.lib</ImportLibrary>
+      <ProgramDataBaseFile>H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_ModelInfer/Debug/Lev_ModelInfer.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\.;H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include;H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\include;H:\PictureAnalyser\Lev_PictureAnalyser;E:\Leventure\WorkShop\Python\paddle_inference;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\protobuf\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\glog\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\gflags\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\xxhash\include;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\dirent\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\boost;E:\Leventure\WorkShop\Python\paddle_inference\third_party\eigen3;E:\Leventure\WorkShop\Python\paddle_inference\paddle\fluid\inference;E:\Leventure\WorkShop\Python\paddle_inference\paddle\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mklml\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mkldnn\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Program Files (x86)/opencv/build" /external:I "C:/Program Files (x86)/opencv/sources/include" /external:I "C:/Program Files (x86)/opencv/sources/include/opencv" /external:I "C:/Program Files (x86)/opencv/sources/modules/core/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/flann/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/imgproc/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/ml/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/photo/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/video/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/dnn/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/imgcodecs/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/shape/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/videoio/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/highgui/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/superres/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/ts/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/features2d/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/calib3d/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/objdetect/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/stitching/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/videostab/include" /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_MKL;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR="Release";Lev_ModelInfer_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_MKL;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR=\"Release\";Lev_ModelInfer_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\.;H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include;H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\include;H:\PictureAnalyser\Lev_PictureAnalyser;E:\Leventure\WorkShop\Python\paddle_inference;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\protobuf\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\glog\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\gflags\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\xxhash\include;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\dirent\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\boost;E:\Leventure\WorkShop\Python\paddle_inference\third_party\eigen3;E:\Leventure\WorkShop\Python\paddle_inference\paddle\fluid\inference;E:\Leventure\WorkShop\Python\paddle_inference\paddle\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mklml\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mkldnn\include;C:\Program Files (x86)\opencv\build;C:\Program Files (x86)\opencv\sources\include;C:\Program Files (x86)\opencv\sources\include\opencv;C:\Program Files (x86)\opencv\sources\modules\core\include;C:\Program Files (x86)\opencv\sources\modules\flann\include;C:\Program Files (x86)\opencv\sources\modules\imgproc\include;C:\Program Files (x86)\opencv\sources\modules\ml\include;C:\Program Files (x86)\opencv\sources\modules\photo\include;C:\Program Files (x86)\opencv\sources\modules\video\include;C:\Program Files (x86)\opencv\sources\modules\dnn\include;C:\Program Files (x86)\opencv\sources\modules\imgcodecs\include;C:\Program Files (x86)\opencv\sources\modules\shape\include;C:\Program Files (x86)\opencv\sources\modules\videoio\include;C:\Program Files (x86)\opencv\sources\modules\highgui\include;C:\Program Files (x86)\opencv\sources\modules\superres\include;C:\Program Files (x86)\opencv\sources\modules\ts\include;C:\Program Files (x86)\opencv\sources\modules\features2d\include;C:\Program Files (x86)\opencv\sources\modules\calib3d\include;C:\Program Files (x86)\opencv\sources\modules\objdetect\include;C:\Program Files (x86)\opencv\sources\modules\stitching\include;C:\Program Files (x86)\opencv\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\.;H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include;H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\include;H:\PictureAnalyser\Lev_PictureAnalyser;E:\Leventure\WorkShop\Python\paddle_inference;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\protobuf\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\glog\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\gflags\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\xxhash\include;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\dirent\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\boost;E:\Leventure\WorkShop\Python\paddle_inference\third_party\eigen3;E:\Leventure\WorkShop\Python\paddle_inference\paddle\fluid\inference;E:\Leventure\WorkShop\Python\paddle_inference\paddle\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mklml\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mkldnn\include;C:\Program Files (x86)\opencv\build;C:\Program Files (x86)\opencv\sources\include;C:\Program Files (x86)\opencv\sources\include\opencv;C:\Program Files (x86)\opencv\sources\modules\core\include;C:\Program Files (x86)\opencv\sources\modules\flann\include;C:\Program Files (x86)\opencv\sources\modules\imgproc\include;C:\Program Files (x86)\opencv\sources\modules\ml\include;C:\Program Files (x86)\opencv\sources\modules\photo\include;C:\Program Files (x86)\opencv\sources\modules\video\include;C:\Program Files (x86)\opencv\sources\modules\dnn\include;C:\Program Files (x86)\opencv\sources\modules\imgcodecs\include;C:\Program Files (x86)\opencv\sources\modules\shape\include;C:\Program Files (x86)\opencv\sources\modules\videoio\include;C:\Program Files (x86)\opencv\sources\modules\highgui\include;C:\Program Files (x86)\opencv\sources\modules\superres\include;C:\Program Files (x86)\opencv\sources\modules\ts\include;C:\Program Files (x86)\opencv\sources\modules\features2d\include;C:\Program Files (x86)\opencv\sources\modules\calib3d\include;C:\Program Files (x86)\opencv\sources\modules\objdetect\include;C:\Program Files (x86)\opencv\sources\modules\stitching\include;C:\Program Files (x86)\opencv\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mklml/lib/mklml.dll ./mklml.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mklml/lib/libiomp5md.dll ./libiomp5md.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mkldnn/lib/mkldnn.dll ./mkldnn.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mklml/lib/mklml.dll ./release/mklml.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mklml/lib/libiomp5md.dll ./release/libiomp5md.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mkldnn/lib/mkldnn.dll ./release/mkldnn.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/paddle/lib/paddle_inference.dll ./release/paddle_inference.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/onnxruntime/lib/onnxruntime.dll ./onnxruntime.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/paddle2onnx/lib/paddle2onnx.dll ./paddle2onnx.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/onnxruntime/lib/onnxruntime.dll ./release/onnxruntime.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/paddle2onnx/lib/paddle2onnx.dll ./release/paddle2onnx.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/paddle/lib/paddle_inference.dll ./release/paddle_inference.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>E:\Leventure\WorkShop\Python\paddle_inference\paddle\lib\paddle_inference.lib;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mklml\lib\mklml.lib;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mklml\lib\libiomp5md.lib;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mkldnn\lib\mkldnn.lib;glog.lib;gflags_static.lib;libprotobuf.lib;xxhash.lib;libyaml-cppmt.lib;libcmt.lib;shlwapi.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\lib\x64\cudart.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\lib\x64\cublas.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\lib\x64\cudnn.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_dnn346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_ml346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_objdetect346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_shape346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_stitching346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_superres346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_videostab346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_calib3d346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_features2d346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_flann346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_highgui346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_photo346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_video346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_videoio346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_imgcodecs346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_imgproc346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_core346.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>H:/PictureAnalyser/Lev_PictureAnalyser/build/ext/yaml-cpp/lib;H:/PictureAnalyser/Lev_PictureAnalyser/build/ext/yaml-cpp/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/protobuf/lib;E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/protobuf/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/glog/lib;E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/glog/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/gflags/lib;E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/gflags/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/xxhash/lib;E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/xxhash/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/paddle2onnx/lib;E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/paddle2onnx/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/onnxruntime/lib;E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/onnxruntime/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/paddle/lib;E:/Leventure/WorkShop/Python/paddle_inference/paddle/lib/$(Configuration);H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_ModelInfer;H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_ModelInfer/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/paddle/fluid/inference;E:/Leventure/WorkShop/Python/paddle_inference/paddle/fluid/inference/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_ModelInfer/Release/Lev_ModelInfer.lib</ImportLibrary>
+      <ProgramDataBaseFile>H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_ModelInfer/Release/Lev_ModelInfer.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\.;H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include;H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\include;H:\PictureAnalyser\Lev_PictureAnalyser;E:\Leventure\WorkShop\Python\paddle_inference;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\protobuf\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\glog\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\gflags\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\xxhash\include;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\dirent\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\boost;E:\Leventure\WorkShop\Python\paddle_inference\third_party\eigen3;E:\Leventure\WorkShop\Python\paddle_inference\paddle\fluid\inference;E:\Leventure\WorkShop\Python\paddle_inference\paddle\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mklml\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mkldnn\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Program Files (x86)/opencv/build" /external:I "C:/Program Files (x86)/opencv/sources/include" /external:I "C:/Program Files (x86)/opencv/sources/include/opencv" /external:I "C:/Program Files (x86)/opencv/sources/modules/core/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/flann/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/imgproc/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/ml/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/photo/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/video/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/dnn/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/imgcodecs/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/shape/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/videoio/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/highgui/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/superres/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/ts/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/features2d/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/calib3d/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/objdetect/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/stitching/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/videostab/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_MKL;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR="MinSizeRel";Lev_ModelInfer_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_MKL;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR=\"MinSizeRel\";Lev_ModelInfer_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\.;H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include;H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\include;H:\PictureAnalyser\Lev_PictureAnalyser;E:\Leventure\WorkShop\Python\paddle_inference;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\protobuf\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\glog\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\gflags\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\xxhash\include;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\dirent\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\boost;E:\Leventure\WorkShop\Python\paddle_inference\third_party\eigen3;E:\Leventure\WorkShop\Python\paddle_inference\paddle\fluid\inference;E:\Leventure\WorkShop\Python\paddle_inference\paddle\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mklml\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mkldnn\include;C:\Program Files (x86)\opencv\build;C:\Program Files (x86)\opencv\sources\include;C:\Program Files (x86)\opencv\sources\include\opencv;C:\Program Files (x86)\opencv\sources\modules\core\include;C:\Program Files (x86)\opencv\sources\modules\flann\include;C:\Program Files (x86)\opencv\sources\modules\imgproc\include;C:\Program Files (x86)\opencv\sources\modules\ml\include;C:\Program Files (x86)\opencv\sources\modules\photo\include;C:\Program Files (x86)\opencv\sources\modules\video\include;C:\Program Files (x86)\opencv\sources\modules\dnn\include;C:\Program Files (x86)\opencv\sources\modules\imgcodecs\include;C:\Program Files (x86)\opencv\sources\modules\shape\include;C:\Program Files (x86)\opencv\sources\modules\videoio\include;C:\Program Files (x86)\opencv\sources\modules\highgui\include;C:\Program Files (x86)\opencv\sources\modules\superres\include;C:\Program Files (x86)\opencv\sources\modules\ts\include;C:\Program Files (x86)\opencv\sources\modules\features2d\include;C:\Program Files (x86)\opencv\sources\modules\calib3d\include;C:\Program Files (x86)\opencv\sources\modules\objdetect\include;C:\Program Files (x86)\opencv\sources\modules\stitching\include;C:\Program Files (x86)\opencv\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\.;H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include;H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\include;H:\PictureAnalyser\Lev_PictureAnalyser;E:\Leventure\WorkShop\Python\paddle_inference;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\protobuf\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\glog\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\gflags\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\xxhash\include;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\dirent\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\boost;E:\Leventure\WorkShop\Python\paddle_inference\third_party\eigen3;E:\Leventure\WorkShop\Python\paddle_inference\paddle\fluid\inference;E:\Leventure\WorkShop\Python\paddle_inference\paddle\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mklml\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mkldnn\include;C:\Program Files (x86)\opencv\build;C:\Program Files (x86)\opencv\sources\include;C:\Program Files (x86)\opencv\sources\include\opencv;C:\Program Files (x86)\opencv\sources\modules\core\include;C:\Program Files (x86)\opencv\sources\modules\flann\include;C:\Program Files (x86)\opencv\sources\modules\imgproc\include;C:\Program Files (x86)\opencv\sources\modules\ml\include;C:\Program Files (x86)\opencv\sources\modules\photo\include;C:\Program Files (x86)\opencv\sources\modules\video\include;C:\Program Files (x86)\opencv\sources\modules\dnn\include;C:\Program Files (x86)\opencv\sources\modules\imgcodecs\include;C:\Program Files (x86)\opencv\sources\modules\shape\include;C:\Program Files (x86)\opencv\sources\modules\videoio\include;C:\Program Files (x86)\opencv\sources\modules\highgui\include;C:\Program Files (x86)\opencv\sources\modules\superres\include;C:\Program Files (x86)\opencv\sources\modules\ts\include;C:\Program Files (x86)\opencv\sources\modules\features2d\include;C:\Program Files (x86)\opencv\sources\modules\calib3d\include;C:\Program Files (x86)\opencv\sources\modules\objdetect\include;C:\Program Files (x86)\opencv\sources\modules\stitching\include;C:\Program Files (x86)\opencv\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mklml/lib/mklml.dll ./mklml.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mklml/lib/libiomp5md.dll ./libiomp5md.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mkldnn/lib/mkldnn.dll ./mkldnn.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mklml/lib/mklml.dll ./release/mklml.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mklml/lib/libiomp5md.dll ./release/libiomp5md.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mkldnn/lib/mkldnn.dll ./release/mkldnn.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/paddle/lib/paddle_inference.dll ./release/paddle_inference.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/onnxruntime/lib/onnxruntime.dll ./onnxruntime.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/paddle2onnx/lib/paddle2onnx.dll ./paddle2onnx.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/onnxruntime/lib/onnxruntime.dll ./release/onnxruntime.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/paddle2onnx/lib/paddle2onnx.dll ./release/paddle2onnx.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/paddle/lib/paddle_inference.dll ./release/paddle_inference.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>E:\Leventure\WorkShop\Python\paddle_inference\paddle\lib\paddle_inference.lib;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mklml\lib\mklml.lib;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mklml\lib\libiomp5md.lib;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mkldnn\lib\mkldnn.lib;glog.lib;gflags_static.lib;libprotobuf.lib;xxhash.lib;libyaml-cppmt.lib;libcmt.lib;shlwapi.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\lib\x64\cudart.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\lib\x64\cublas.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\lib\x64\cudnn.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_dnn346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_ml346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_objdetect346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_shape346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_stitching346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_superres346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_videostab346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_calib3d346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_features2d346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_flann346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_highgui346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_photo346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_video346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_videoio346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_imgcodecs346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_imgproc346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_core346.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>H:/PictureAnalyser/Lev_PictureAnalyser/build/ext/yaml-cpp/lib;H:/PictureAnalyser/Lev_PictureAnalyser/build/ext/yaml-cpp/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/protobuf/lib;E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/protobuf/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/glog/lib;E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/glog/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/gflags/lib;E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/gflags/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/xxhash/lib;E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/xxhash/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/paddle2onnx/lib;E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/paddle2onnx/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/onnxruntime/lib;E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/onnxruntime/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/paddle/lib;E:/Leventure/WorkShop/Python/paddle_inference/paddle/lib/$(Configuration);H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_ModelInfer;H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_ModelInfer/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/paddle/fluid/inference;E:/Leventure/WorkShop/Python/paddle_inference/paddle/fluid/inference/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_ModelInfer/MinSizeRel/Lev_ModelInfer.lib</ImportLibrary>
+      <ProgramDataBaseFile>H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_ModelInfer/MinSizeRel/Lev_ModelInfer.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\.;H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include;H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\include;H:\PictureAnalyser\Lev_PictureAnalyser;E:\Leventure\WorkShop\Python\paddle_inference;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\protobuf\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\glog\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\gflags\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\xxhash\include;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\dirent\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\boost;E:\Leventure\WorkShop\Python\paddle_inference\third_party\eigen3;E:\Leventure\WorkShop\Python\paddle_inference\paddle\fluid\inference;E:\Leventure\WorkShop\Python\paddle_inference\paddle\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mklml\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mkldnn\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Program Files (x86)/opencv/build" /external:I "C:/Program Files (x86)/opencv/sources/include" /external:I "C:/Program Files (x86)/opencv/sources/include/opencv" /external:I "C:/Program Files (x86)/opencv/sources/modules/core/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/flann/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/imgproc/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/ml/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/photo/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/video/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/dnn/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/imgcodecs/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/shape/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/videoio/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/highgui/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/superres/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/ts/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/features2d/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/calib3d/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/objdetect/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/stitching/include" /external:I "C:/Program Files (x86)/opencv/sources/modules/videostab/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_MKL;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR="RelWithDebInfo";Lev_ModelInfer_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_MKL;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR=\"RelWithDebInfo\";Lev_ModelInfer_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\.;H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include;H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\include;H:\PictureAnalyser\Lev_PictureAnalyser;E:\Leventure\WorkShop\Python\paddle_inference;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\protobuf\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\glog\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\gflags\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\xxhash\include;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\dirent\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\boost;E:\Leventure\WorkShop\Python\paddle_inference\third_party\eigen3;E:\Leventure\WorkShop\Python\paddle_inference\paddle\fluid\inference;E:\Leventure\WorkShop\Python\paddle_inference\paddle\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mklml\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mkldnn\include;C:\Program Files (x86)\opencv\build;C:\Program Files (x86)\opencv\sources\include;C:\Program Files (x86)\opencv\sources\include\opencv;C:\Program Files (x86)\opencv\sources\modules\core\include;C:\Program Files (x86)\opencv\sources\modules\flann\include;C:\Program Files (x86)\opencv\sources\modules\imgproc\include;C:\Program Files (x86)\opencv\sources\modules\ml\include;C:\Program Files (x86)\opencv\sources\modules\photo\include;C:\Program Files (x86)\opencv\sources\modules\video\include;C:\Program Files (x86)\opencv\sources\modules\dnn\include;C:\Program Files (x86)\opencv\sources\modules\imgcodecs\include;C:\Program Files (x86)\opencv\sources\modules\shape\include;C:\Program Files (x86)\opencv\sources\modules\videoio\include;C:\Program Files (x86)\opencv\sources\modules\highgui\include;C:\Program Files (x86)\opencv\sources\modules\superres\include;C:\Program Files (x86)\opencv\sources\modules\ts\include;C:\Program Files (x86)\opencv\sources\modules\features2d\include;C:\Program Files (x86)\opencv\sources\modules\calib3d\include;C:\Program Files (x86)\opencv\sources\modules\objdetect\include;C:\Program Files (x86)\opencv\sources\modules\stitching\include;C:\Program Files (x86)\opencv\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\.;H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\src\ext-yaml-cpp\include;H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\include;H:\PictureAnalyser\Lev_PictureAnalyser;E:\Leventure\WorkShop\Python\paddle_inference;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\protobuf\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\glog\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\gflags\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\xxhash\include;E:\Leventure\WorkShop\Python\PaddleDetection\deploy\dirent\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\boost;E:\Leventure\WorkShop\Python\paddle_inference\third_party\eigen3;E:\Leventure\WorkShop\Python\paddle_inference\paddle\fluid\inference;E:\Leventure\WorkShop\Python\paddle_inference\paddle\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mklml\include;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mkldnn\include;C:\Program Files (x86)\opencv\build;C:\Program Files (x86)\opencv\sources\include;C:\Program Files (x86)\opencv\sources\include\opencv;C:\Program Files (x86)\opencv\sources\modules\core\include;C:\Program Files (x86)\opencv\sources\modules\flann\include;C:\Program Files (x86)\opencv\sources\modules\imgproc\include;C:\Program Files (x86)\opencv\sources\modules\ml\include;C:\Program Files (x86)\opencv\sources\modules\photo\include;C:\Program Files (x86)\opencv\sources\modules\video\include;C:\Program Files (x86)\opencv\sources\modules\dnn\include;C:\Program Files (x86)\opencv\sources\modules\imgcodecs\include;C:\Program Files (x86)\opencv\sources\modules\shape\include;C:\Program Files (x86)\opencv\sources\modules\videoio\include;C:\Program Files (x86)\opencv\sources\modules\highgui\include;C:\Program Files (x86)\opencv\sources\modules\superres\include;C:\Program Files (x86)\opencv\sources\modules\ts\include;C:\Program Files (x86)\opencv\sources\modules\features2d\include;C:\Program Files (x86)\opencv\sources\modules\calib3d\include;C:\Program Files (x86)\opencv\sources\modules\objdetect\include;C:\Program Files (x86)\opencv\sources\modules\stitching\include;C:\Program Files (x86)\opencv\sources\modules\videostab\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mklml/lib/mklml.dll ./mklml.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mklml/lib/libiomp5md.dll ./libiomp5md.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mkldnn/lib/mkldnn.dll ./mkldnn.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mklml/lib/mklml.dll ./release/mklml.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mklml/lib/libiomp5md.dll ./release/libiomp5md.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/mkldnn/lib/mkldnn.dll ./release/mkldnn.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/paddle/lib/paddle_inference.dll ./release/paddle_inference.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/onnxruntime/lib/onnxruntime.dll ./onnxruntime.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/paddle2onnx/lib/paddle2onnx.dll ./paddle2onnx.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/onnxruntime/lib/onnxruntime.dll ./release/onnxruntime.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/paddle2onnx/lib/paddle2onnx.dll ./release/paddle2onnx.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Leventure/WorkShop/Python/paddle_inference/paddle/lib/paddle_inference.dll ./release/paddle_inference.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>E:\Leventure\WorkShop\Python\paddle_inference\paddle\lib\paddle_inference.lib;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mklml\lib\mklml.lib;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mklml\lib\libiomp5md.lib;E:\Leventure\WorkShop\Python\paddle_inference\third_party\install\mkldnn\lib\mkldnn.lib;glog.lib;gflags_static.lib;libprotobuf.lib;xxhash.lib;libyaml-cppmt.lib;libcmt.lib;shlwapi.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\lib\x64\cudart.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\lib\x64\cublas.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\lib\x64\cudnn.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_dnn346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_ml346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_objdetect346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_shape346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_stitching346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_superres346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_videostab346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_calib3d346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_features2d346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_flann346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_highgui346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_photo346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_video346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_videoio346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_imgcodecs346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_imgproc346.lib;C:\Program Files (x86)\opencv\build\lib\Release\opencv_core346.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>H:/PictureAnalyser/Lev_PictureAnalyser/build/ext/yaml-cpp/lib;H:/PictureAnalyser/Lev_PictureAnalyser/build/ext/yaml-cpp/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/protobuf/lib;E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/protobuf/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/glog/lib;E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/glog/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/gflags/lib;E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/gflags/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/xxhash/lib;E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/xxhash/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/paddle2onnx/lib;E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/paddle2onnx/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/onnxruntime/lib;E:/Leventure/WorkShop/Python/paddle_inference/third_party/install/onnxruntime/lib/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/paddle/lib;E:/Leventure/WorkShop/Python/paddle_inference/paddle/lib/$(Configuration);H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_ModelInfer;H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_ModelInfer/$(Configuration);E:/Leventure/WorkShop/Python/paddle_inference/paddle/fluid/inference;E:/Leventure/WorkShop/Python/paddle_inference/paddle/fluid/inference/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_ModelInfer/RelWithDebInfo/Lev_ModelInfer.lib</ImportLibrary>
+      <ProgramDataBaseFile>H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_ModelInfer/RelWithDebInfo/Lev_ModelInfer.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule H:/PictureAnalyser/Lev_PictureAnalyser/Lev_ModelInfer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/PictureAnalyser/Lev_PictureAnalyser -BH:/PictureAnalyser/Lev_PictureAnalyser/build --check-stamp-file H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_ModelInfer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\opencv\build\OpenCVConfig-version.cmake;C:\Program Files (x86)\opencv\build\OpenCVConfig.cmake;C:\Program Files (x86)\opencv\build\OpenCVModules.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\download.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\extractfile.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\cmake\yaml-cpp.cmake;H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\tmp\ext-yaml-cpp-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\PictureAnalyser\Lev_PictureAnalyser\build\Lev_ModelInfer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule H:/PictureAnalyser/Lev_PictureAnalyser/Lev_ModelInfer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/PictureAnalyser/Lev_PictureAnalyser -BH:/PictureAnalyser/Lev_PictureAnalyser/build --check-stamp-file H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_ModelInfer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\opencv\build\OpenCVConfig-version.cmake;C:\Program Files (x86)\opencv\build\OpenCVConfig.cmake;C:\Program Files (x86)\opencv\build\OpenCVModules.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\download.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\extractfile.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\cmake\yaml-cpp.cmake;H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\tmp\ext-yaml-cpp-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\PictureAnalyser\Lev_PictureAnalyser\build\Lev_ModelInfer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule H:/PictureAnalyser/Lev_PictureAnalyser/Lev_ModelInfer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/PictureAnalyser/Lev_PictureAnalyser -BH:/PictureAnalyser/Lev_PictureAnalyser/build --check-stamp-file H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_ModelInfer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files (x86)\opencv\build\OpenCVConfig-version.cmake;C:\Program Files (x86)\opencv\build\OpenCVConfig.cmake;C:\Program Files (x86)\opencv\build\OpenCVModules.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\download.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\extractfile.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\cmake\yaml-cpp.cmake;H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\tmp\ext-yaml-cpp-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\PictureAnalyser\Lev_PictureAnalyser\build\Lev_ModelInfer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule H:/PictureAnalyser/Lev_PictureAnalyser/Lev_ModelInfer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/PictureAnalyser/Lev_PictureAnalyser -BH:/PictureAnalyser/Lev_PictureAnalyser/build --check-stamp-file H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_ModelInfer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files (x86)\opencv\build\OpenCVConfig-version.cmake;C:\Program Files (x86)\opencv\build\OpenCVConfig.cmake;C:\Program Files (x86)\opencv\build\OpenCVModules.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\download.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\extractfile.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\cmake\yaml-cpp.cmake;H:\PictureAnalyser\Lev_PictureAnalyser\build\ext\yaml-cpp\tmp\ext-yaml-cpp-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\PictureAnalyser\Lev_PictureAnalyser\build\Lev_ModelInfer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\main.cc" />
+    <ClCompile Include="H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\preprocess_op.cc" />
+    <ClCompile Include="H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\object_detector.cc" />
+    <ClCompile Include="H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\picodet_postprocess.cc" />
+    <ClCompile Include="H:\PictureAnalyser\Lev_PictureAnalyser\Lev_ModelInfer\src\utils.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="H:\PictureAnalyser\Lev_PictureAnalyser\build\ZERO_CHECK.vcxproj">
+      <Project>{436D28E5-0D7D-300E-A84F-F0D76E60F174}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="H:\PictureAnalyser\Lev_PictureAnalyser\build\Lev_ModelInfer\ext-yaml-cpp.vcxproj">
+      <Project>{23EC875E-C117-3172-8FEB-65812077C776}</Project>
+      <Name>ext-yaml-cpp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

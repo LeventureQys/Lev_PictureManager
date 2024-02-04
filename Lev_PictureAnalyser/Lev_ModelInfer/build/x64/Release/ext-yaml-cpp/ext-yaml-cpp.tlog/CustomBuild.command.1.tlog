@@ -1,0 +1,132 @@
+^E:\LEVENTURE\WORKSHOP\PYTHON\PADDLEDETECTION\DEPLOY\CPP\BUILD\CMAKEFILES\F9E65D23FAA46A475E0D2885428A90EA\EXT-YAML-CPP-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Release -P E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/tmp/ext-yaml-cpp-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/Release/ext-yaml-cpp-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\LEVENTURE\WORKSHOP\PYTHON\PADDLEDETECTION\DEPLOY\CPP\BUILD\CMAKEFILES\F9E65D23FAA46A475E0D2885428A90EA\EXT-YAML-CPP-DOWNLOAD.RULE
+setlocal
+cd E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dconfig=Release -P E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/ext-yaml-cpp-download-Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/Release/ext-yaml-cpp-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\LEVENTURE\WORKSHOP\PYTHON\PADDLEDETECTION\DEPLOY\CPP\BUILD\CMAKEFILES\F9E65D23FAA46A475E0D2885428A90EA\EXT-YAML-CPP-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/Release/ext-yaml-cpp-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\LEVENTURE\WORKSHOP\PYTHON\PADDLEDETECTION\DEPLOY\CPP\BUILD\CMAKEFILES\F9E65D23FAA46A475E0D2885428A90EA\EXT-YAML-CPP-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/Release/ext-yaml-cpp-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\LEVENTURE\WORKSHOP\PYTHON\PADDLEDETECTION\DEPLOY\CPP\BUILD\CMAKEFILES\F9E65D23FAA46A475E0D2885428A90EA\EXT-YAML-CPP-CONFIGURE.RULE
+setlocal
+cd E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DYAML_CPP_BUILD_TESTS=OFF -DYAML_CPP_BUILD_TOOLS=OFF -DYAML_CPP_INSTALL=OFF -DYAML_CPP_BUILD_CONTRIB=OFF -DMSVC_SHARED_RT=OFF -DBUILD_SHARED_LIBS=OFF -DCMAKE_BUILD_TYPE= "-DCMAKE_CXX_FLAGS=/DWIN32 /D_WINDOWS /W3 /GR /EHsc" "-DCMAKE_CXX_FLAGS_DEBUG=/MDd /Zi /Ob0 /Od /RTC1" "-DCMAKE_CXX_FLAGS_RELEASE=/MD /O2 /Ob2 /DNDEBUG" -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/lib -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY=E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/lib "-GVisual Studio 17 2022" "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools" -S E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp -B E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/Release/ext-yaml-cpp-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\LEVENTURE\WORKSHOP\PYTHON\PADDLEDETECTION\DEPLOY\CPP\BUILD\CMAKEFILES\F9E65D23FAA46A475E0D2885428A90EA\EXT-YAML-CPP-BUILD.RULE
+setlocal
+cd E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dconfig=Release -P E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/ext-yaml-cpp-build-Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/Release/ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\LEVENTURE\WORKSHOP\PYTHON\PADDLEDETECTION\DEPLOY\CPP\BUILD\CMAKEFILES\F9E65D23FAA46A475E0D2885428A90EA\EXT-YAML-CPP-INSTALL.RULE
+setlocal
+cd E:\Leventure\WorkShop\Python\PaddleDetection\deploy\cpp\build\ext\yaml-cpp\src\ext-yaml-cpp-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/Release/ext-yaml-cpp-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\LEVENTURE\WORKSHOP\PYTHON\PADDLEDETECTION\DEPLOY\CPP\BUILD\CMAKEFILES\7A84E9C9668E6D14606BA4F7D6A0FEF7\EXT-YAML-CPP-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/CMakeFiles/Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/CMakeFiles/Release/ext-yaml-cpp-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/ext/yaml-cpp/src/ext-yaml-cpp-stamp/Release/ext-yaml-cpp-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\LEVENTURE\WORKSHOP\PYTHON\PADDLEDETECTION\DEPLOY\CPP\BUILD\CMAKEFILES\B8065E3B93682057324BE9CAA4C575F2\EXT-YAML-CPP.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\LEVENTURE\WORKSHOP\PYTHON\PADDLEDETECTION\DEPLOY\CPP\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp -BE:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build --check-stamp-file E:/Leventure/WorkShop/Python/PaddleDetection/deploy/cpp/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

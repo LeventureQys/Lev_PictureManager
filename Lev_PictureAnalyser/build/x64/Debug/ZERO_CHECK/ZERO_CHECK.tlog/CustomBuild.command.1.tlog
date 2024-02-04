@@ -1,0 +1,10 @@
+^H:\PICTUREANALYSER\LEV_PICTUREANALYSER\BUILD\CMAKEFILES\73443672A62FFB70A7F046265F5E720C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/PictureAnalyser/Lev_PictureAnalyser -BH:/PictureAnalyser/Lev_PictureAnalyser/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file H:/PictureAnalyser/Lev_PictureAnalyser/build/Lev_PictureAnalyser.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
